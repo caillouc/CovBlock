@@ -20,7 +20,7 @@ MAX_PAGE_SIZE = 100
 
 ## METHODES ##
 
-def removeEmptyEntries(newsDictionary): 
+def removeEmptyEntries(newsDictionary):
     needToRemove = []
     for a in newsDictionary["articles"]:
         if(a["title"] is None or a["title"] == ''):
@@ -29,6 +29,7 @@ def removeEmptyEntries(newsDictionary):
     for a in needToRemove:
         newsDictionary["articles"].remove(a)
     newsDictionary["totalResults"] = len(newsDictionary["articles"])
+
 
 def removeOccurences(wordsToRemove, language, newsDictionary, blockingPourcentage):
     needToRemove = []
@@ -70,43 +71,21 @@ def sendRequests(blockingPourcentage, language, category, country):
     return top_headlines_no_filter
 
 
-@app.route('/news', methods=['GET'])
+@app.route('/news', methods=['POST'])
 def makeRequest():
-    # given by the front end
-    #blockingPourcentage = 100
-    # ar de en es fr he it nl no pt ru se ud zh
-    #language = None
     # business entertainment general health science sports technology
-    #category = None
-    # ae ar at au be bg br ca ch cn co cu cz de eg fr gb gr hk hu id ie il in it jp kr lt lv ma mx my ng nl no nz ph pl pt ro rs ru sa se sg si sk th tr tw ua us ve za
-    #country = None
-    blockingPourcentage = request.form('blockingPourcentage')
-    language = request.args.get('language')
-    category = request.args.get('category')
-    country = request.args.get('country')
+    # for get : args.get
+    # fro post .form
+    blockingPourcentage = request.form.get('blockingPourcentage')
+    language = request.form.get('language')
+    category = request.form.get('category')
+    country = request.form.get('country')
+    print("blokingPourcentage : " + str(blockingPourcentage))
+    print("language : " + language)
+    print("category : " + category)
+    print("country : " + country)
     return jsonify(sendRequests(blockingPourcentage, language, category, country))
 
 
-
 ## MAIN ##
-app.run('localhost')
-
-#def main():
-   
-#    timeout = 1800.0  # 30 min
-#    while True:
-#        #print("send Request")
-#        sendRequests()
-#        starttime = time.time()
-#        while time.time() - starttime < timeout:
-            # check communication with front end
-            # if interaction, go out
-#            pass
-
-
-#if __name__ == '__main__':
- #   try:
-#        main()
-#    except KeyboardInterrupt:
-#        print("Au revoir !")
-#        sys.exit(0)
+app.run('localhost', port=1415)
