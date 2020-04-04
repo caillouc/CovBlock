@@ -71,7 +71,7 @@ def sendRequests(blockingPourcentage, language, category, country):
 
 
 @app.route('/news', methods=['GET'])
-def request():
+def makeRequest():
     # given by the front end
     #blockingPourcentage = 100
     # ar de en es fr he it nl no pt ru se ud zh
