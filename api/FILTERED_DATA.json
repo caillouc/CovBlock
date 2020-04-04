@@ -1,500 +1,188 @@
 {
     "status": "ok",
-    "totalResults": 38,
+    "totalResults": 14,
     "articles": [
-        {
-            "source": {
-                "id": "buzzfeed",
-                "name": "Buzzfeed"
-            },
-            "author": "Audrey Ivester",
-            "title": "Choose Loungewear From ASOS  And We'll Give You A Great Netflix Series To Watch",
-            "description": "If you're gonna be inside you might as well be cozy!",
-            "url": "https://www.buzzfeed.com/audreyivester/choose-loungewear-from-asos-and-well-tell-you-wh-ewdq816y",
-            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/3/19/campaign_images/c0f1d0044f83/choose-loungewear-from-asos-and-well-give-you-a-g-2-86-1585942132-2_dblbig.jpg",
-            "publishedAt": "2020-04-04T16:38:01.1041128Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "abc-news",
-                "name": "ABC News"
-            },
-            "author": "TIM REYNOLDS AP Basketball Writer",
-            "title": "Kobe, Duncan, Garnett headline Basketball Hall of Fame class",
-            "description": "",
-            "url": "https://abcnews.go.com/Sports/wireStory/kobe-duncan-garnett-headline-basketball-hall-fame-class-69978122",
-            "urlToImage": "https://s.abcnews.com/images/Sports/WireAP_e86a36f8d2524ffaa1cfdd34fcaf4313_16x9_992.jpg",
-            "publishedAt": "2020-04-04T16:28:49Z",
-            "content": "Kobe Bryants resume has yet another entry to prove his greatness: Hes now, officially, a Hall of Famer.\r\nAnd hes got plenty of elite company in the 2020 class, one that may be as glitzy as any.\r\nBryant and fellow NBA greats Tim Duncan and Kevin Garnett headli\u2026 [+3882 chars]"
-        },
-        {
-            "source": {
-                "id": "usa-today",
-                "name": "USA Today"
-            },
-            "author": null,
-            "title": "Kobe Bryant, Kevin Garnett, Tim Duncan among 2020 Basketball Hall of Fame inductees",
-            "description": "The 2020 Basketball Hall of Fame class, announced Saturday, is loaded with all-time greats, including Kobe Bryant, Kevin Garnett and Tim Duncan.",
-            "url": "https://www.usatoday.com/story/sports/basketball/2020/04/04/kobe-bryant-kevin-garnett-tim-duncan-among-basketball-hof-inductees/2947306001/",
-            "urlToImage": "https://www.gannett-cdn.com/presto/2020/03/31/USAT/9e2ee9cc-e630-4c25-9405-fb2ff5bf09d8-LAL_--_Kobe_Bryant.jpg?crop=1619,911,x358,y504&width=1619&height=911&format=pjpg&auto=webp",
-            "publishedAt": "2020-04-04T16:26:38+00:00",
-            "content": "The names are gigantic, three of the biggest and best in basketball in the past 20-plus years.\r\nThe 2020 Basketball Hall of Fame class is loaded with all-time greats one of most anticipated classes in years.\r\nAnd while there is reason to celebrate the inducte\u2026 [+4411 chars]"
-        },
-        {
-            "source": {
-                "id": "fox-sports",
-                "name": "Fox Sports"
-            },
-            "author": null,
-            "title": "",
-            "description": null,
-            "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.foxsports.com%2Fwwe%2Fstory%2Fwrestlemania-36-fans-crowd-where-time-drew-mcintyre-brock-lesnar%3Futm_campaign%3Dshare_buttons%26utm_medium%3Dfscom%26utm_content%3Dreturn_visit%26utm_term%3Dsf%26utm_source%3Dshare_fb",
-            "urlToImage": null,
-            "publishedAt": "2020-04-04T16:23:21.7472232Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "fox-sports",
-                "name": "Fox Sports"
-            },
-            "author": null,
-            "title": "",
-            "description": null,
-            "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.foxsports.com%2Fwwe%2Fstory%2Fwrestlemania-36-the-fiend-john-cena-bray-wyatt-who-is-story-040220%3Futm_campaign%3Dshare_buttons%26utm_medium%3Dfscom%26utm_content%3Dreturn_visit%26utm_term%3Dsf%26utm_source%3Dshare_fb",
-            "urlToImage": null,
-            "publishedAt": "2020-04-04T16:23:15.3370771Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "fox-sports",
-                "name": "Fox Sports"
-            },
-            "author": null,
-            "title": "",
-            "description": null,
-            "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.foxsports.com%2Fwwe%2Fstory%2Fwrestlemania-36-wwe-stream-card-matches-start-time-network-how-to-watch-pay-per-view-040420%3Futm_campaign%3Dshare_buttons%26utm_medium%3Dfscom%26utm_content%3Dreturn_visit%26utm_term%3Dsf%26utm_source%3Dshare_fb",
-            "urlToImage": null,
-            "publishedAt": "2020-04-04T16:23:00.1985551Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "buzzfeed",
-                "name": "Buzzfeed"
-            },
-            "author": "Shyla Watson",
-            "title": "Katy Perry Revealed She And Orlando Bloom Are Expecting A Girl",
-            "description": "Girls run the world.",
-            "url": "https://www.buzzfeed.com/shylawatson/katy-perry-orlando-bloom-having-a-girl",
-            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/4/15/enhanced/bc13c2e3199b/original-2385-1586015526-9.jpg?crop=1243:651;0,47",
-            "publishedAt": "2020-04-04T16:22:59.2306268Z",
-            "content": "Axelle / FilmMagic\r\nOrlando also has a 9-year-old son who he shares with ex-wife Miranda Kerr."
-        },
-        {
-            "source": {
-                "id": "espn-cric-info",
-                "name": "ESPN Cric Info"
-            },
-            "author": null,
-            "title": "Match Preview - India vs Pakistan, World Cup 1996, 2nd QF | ESPNcricinfo.com",
-            "description": "Read and watch the preview for World Cup 1996 2nd QF, India vs Pakistan only on ESPNcricinfo.com",
-            "url": "https://www.espncricinfo.com/series/8039/preview/65187/india-vs-pakistan-2nd-qf-world-cup",
-            "urlToImage": "https://a.espncdn.com/combiner/i?img=/i/espn/espn_logos/espncricinfo.png",
-            "publishedAt": "2020-04-04T16:22:55.7923326Z",
-            "content": "It's nearly a month since this World Cup began, and the actual action might only just be getting started. After 28 matches - 29, if you count the Kenya-Zimbabwe game that had to be replayed owing to a bad pitch in Patna - and two walkovers, the eight teams ev\u2026 [+6815 chars]"
-        },
-        {
-            "source": {
-                "id": "fox-sports",
-                "name": "Fox Sports"
-            },
-            "author": "FOX Sports",
-            "title": "WWE WrestleMania 36: How to watch, full card, start time, and more",
-            "description": "Here's everything you need to know about WrestleMania 36, featuring Brock Lesnar, Becky Lynch, The Undertaker, Charlotte Flair, John Cena and more.",
-            "url": "https://www.foxsports.com/wwe/story/wrestlemania-36-wwe-stream-card-matches-start-time-network-how-to-watch-pay-per-view-040420",
-            "urlToImage": "https://b.fssta.com/uploads/2020/04/thumbnail_ppv-fscom-wm36-footerbannergraphic-v1-1-1.vresize.1200.630.high.94.jpg",
-            "publishedAt": "2020-04-04T16:17:27Z",
-            "content": "The Grandaddy of Them All. The Showcase of the Immortals. The Show of Shows. It\u2019s WrestleMania and this year, it\u2019s too big for one night.\r\nWrestleMania 36,\u00a0available on FOX Sports pay-per-view, comes to you this weekend. Here\u2019s everything you need to know abo\u2026 [+7017 chars]"
-        },
-        {
-            "source": {
-                "id": "the-huffington-post",
-                "name": "The Huffington Post"
-            },
-            "author": "Hilary Hanson",
-            "title": "Search Called Off For Kennedy Family Members Missing After Canoe Accident",
-            "description": "Maeve Kennedy Townsend McKean and her young son, Gideon, disappeared after winds appeared to overwhelm their boat on the Chesapeake Bay.",
-            "url": "https://www.huffpost.com/entry/maeve-kennedy-townsend-mckean-canoe-accident-search-off_n_5e88a5d1c5b6e7d76c64dfb3",
-            "urlToImage": "https://img.huffingtonpost.com/asset/5e88a801250000df026b72c8.jpeg?cache=Ftz59dOMfi&ops=1200_630",
-            "publishedAt": "2020-04-04T16:06:20Z",
-            "content": "Authorities have called off the search for Maeve Kennedy Townsend McKean and her 8-year-old son, Gideon Joseph Kennedy McKean, who went out in a canoe on the Chesapeake Bay Thursday and didn\u2019t return to shore.\r\n\u201cThis was a difficult case, and even more diffic\u2026 [+2813 chars]"
-        },
-        {
-            "source": {
-                "id": "ign",
-                "name": "IGN"
-            },
-            "author": "Matt Fowler",
-            "title": "Watch Christian Bale Wear Val Kilmer's Batsuit from Batman Forever - IGN",
-            "description": "Check out Christian Bale's screen test for Batman Begins in the Val Kilmer Sonar suit, Cillian Murphy as Bruce Wayne, and Tom Hardy preparing to break the Bat.",
-            "url": "https://www.ign.com/articles/christian-bale-val-kilmer-batsuit-batman-screen-test",
-            "urlToImage": "https://assets1.ignimgs.com/2020/04/04/bale-batsuit-screen-test-val-kilmer-1585961713396.jpg?width=1280",
-            "publishedAt": "2020-04-04T16:05:13Z",
-            "content": "If you'd like, please check out the past few Time Capsules:With superhero movies like Black Widow and Wonder Woman 1984 now postponed, along with every other form of entertainment that involves more than just sitting on a stool and staring menacingly into the\u2026 [+2032 chars]"
-        },
-        {
-            "source": {
-                "id": "news24",
-                "name": "News24"
-            },
-            "author": null,
-            "title": "PICS | Foster kids receive 'survival kits' from Potchefstroom children's home",
-            "description": "Families housing 230 children from the Abraham Kriel Children's Home have received care packages.",
-            "url": "https://www.news24.com/SouthAfrica/News/pics-foster-kids-receive-survival-kits-from-potchefstroom-childrens-home-20200404",
-            "urlToImage": "http://cdn.24.co.za/files/Cms/General/d/3013/ff7528dac79345ec8be1146847a9f828.jpeg",
-            "publishedAt": "2020-04-04T16:03:27+00:00",
-            "content": "Families housing 230 children from the Abraham Kriel Children's Home in Potchefstroom have received care packages, donated by the home.\r\nThe \"survival packs\" were distributed to families in surrounding areas including Klerksdorp, Orkney and Hartebeesfontein, \u2026 [+983 chars]"
-        },
         {
             "source": {
                 "id": "cnbc",
                 "name": "CNBC"
             },
             "author": "Pippa Stevens",
-            "title": "Oil set to 'crater' Monday as OPEC meeting delayed, tensions flare between Saudi Arabia and Russia",
+            "title": "Oil set to 'crater' Monday as OPEC meeting delayed, tensions flare between Saudi Arabia and Russia - CNBC",
             "description": "The meeting between OPEC and its allies scheduled for Monday has been postponed amid ongoing tensions surrounding production cuts.",
             "url": "https://www.cnbc.com/2020/04/04/oil-set-to-crater-monday-as-opec-meeting-delayed-tensions-flare-between-saudi-arabia-and-russia.html",
             "urlToImage": "https://image.cnbcfm.com/api/v1/image/106471730-15858302882122019-12-06t120701z_275254283_rc2opd95wjy3_rtrmadp_3_oil-opec.jpg?v=1585830472",
-            "publishedAt": "2020-04-04T16:00:35Z",
-            "content": "The virtual meeting between OPEC and its allies scheduled for Monday has been postponed, sources familiar with the matter told CNBC, amid mounting tensions between Saudi Arabia and Russia. The meeting will now \"likely\" be held on Thursday, sources said.\r\nThe \u2026 [+4613 chars]"
+            "publishedAt": "2020-04-04T16:37:14Z",
+            "content": "The virtual meeting between OPEC and its allies scheduled for Monday has been postponed, sources familiar with the matter told CNBC, amid mounting tensions between Saudi Arabia and Russia. The meeting will now \"likely\" be held on Thursday, sources said.\r\nThe \u2026 [+4643 chars]"
         },
         {
             "source": {
-                "id": "al-jazeera-english",
-                "name": "Al Jazeera English"
+                "id": null,
+                "name": "Ktla.com"
             },
-            "author": "Al Jazeera",
-            "title": "Iran hits back at US accusation over dissident's killing",
-            "description": "Iran rejects US accusation of plotting the murder of Vardanjani, an Iranian dissident killed last November in Istanbul.",
-            "url": "http://www.aljazeera.com/news/2020/04/iran-hits-accusation-dissident-killing-200404143506160.html",
-            "urlToImage": "https://www.aljazeera.com/mritems/Images/2020/4/2/c449e94acbe54a3aa7821f1a70d2b917_18.jpg",
-            "publishedAt": "2020-04-04T15:59:00Z",
-            "content": "Tehran has hit back at the United States over accusations that Iranian diplomats were behind the killing of an Iranian dissident in the Turkish city of Istanbul in November 2019.\r\nMasoud Molavi Vardanjani was shot dead on November 14. Two senior Turkish offic\u2026 [+1593 chars]"
+            "author": "Associated Press",
+            "title": "NBA inducts Kobe Bryant into basketball Hall of Fame - KTLA Los Angeles",
+            "description": "Kobe Bryant\u2019s resume has yet another entry to prove his greatness: He\u2019s now, officially, a Hall of Famer. And he\u2019s got plenty of elite company in the 2020 class, one that may be as glitzy as any. B\u2026",
+            "url": "https://ktla.com/sports/kobe-bryant-expected-to-be-inducted-into-basketball-hall-of-fame/",
+            "urlToImage": "https://ktla.com/wp-content/uploads/sites/4/2020/01/kobe24.jpg?w=1280&h=720&crop=1",
+            "publishedAt": "2020-04-04T16:22:04Z",
+            "content": "Kobe Bryants resume has yet another entry to prove his greatness: Hes now, officially, a Hall of Famer.\r\nAnd hes got plenty of elite company in the 2020 class, one that may be as glitzy as any.\r\nBryant and fellow NBA greats Tim Duncan and Kevin Garnett headli\u2026 [+4142 chars]"
         },
         {
             "source": {
-                "id": "crypto-coins-news",
-                "name": "Crypto Coins News"
-            },
-            "author": null,
-            "title": "Free Version of Fallout 76 on Steam Won't Save This Terrible Game",
-            "description": "Fallout 76 is coming to Steam for free for anyone who already owns the game on Bethesda.net. Shame the game is still anti-consumer rubbish.",
-            "url": "https://www.ccn.com/free-version-of-fallout-76-on-steam-wont-save-this-terrible-game/",
-            "urlToImage": "https://www.ccn.com/wp-content/uploads/2020/04/fallout-76-stock-1ij.jpg",
-            "publishedAt": "2020-04-04T15:56:03Z",
-            "content": "<ul><li>Fallout 76 is finally coming to Steam.</li><li>The game will be available for free to anyone who already owns it via Bethesda.net.</li><li>While this is a good move, it doesnt undo all of the terrible moves that have preceded it.</li></ul>Do you guys \u2026 [+2438 chars]"
-        },
-        {
-            "source": {
-                "id": "polygon",
-                "name": "Polygon"
-            },
-            "author": "Owen S. Good",
-            "title": "Rocksmith\u2019s DLC ends after 383 weeks",
-            "description": "Ubisoft San Francisco, makers of Rocksmith, said they are working on an unannounced new project, and as such must focus their efforts away from Rocksmith\u2019s DLC. That ends after 383 weeks of new releases.",
-            "url": "https://www.polygon.com/2020/4/4/21208048/rocksmith-dlc-ends-ubisoft-san-francisco-ps4-pc-xbox-one",
-            "urlToImage": "https://cdn.vox-cdn.com/thumbor/pWHoV1IsPXBowWRY7zrZ0UZnmOM=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/6995957/rocksmith-2014-edition-remastered-screenshot_1920.jpg",
-            "publishedAt": "2020-04-04T15:55:37Z",
-            "content": "Rocksmithhas run its course.\r\nUbisoft San Francisco announced on Friday that work on an unnamed new project means the studio must close down the guitar games DLC, after 383 weeks of releases comprising 1,570 songs.\r\nAlthough we will no longer be releasing new\u2026 [+688 chars]"
-        },
-        {
-            "source": {
-                "id": "google-news",
-                "name": "Google News"
+                "id": "cnn",
+                "name": "CNN"
             },
             "author": "Veronica Stracqualursi and Lindy Royce, CNN",
-            "title": "Search suspended for two members of Kennedy family lost in Chesapeake Bay",
+            "title": "Search suspended for two members of Kennedy family lost in Chesapeake Bay - CNN",
             "description": "The search for two members of the Kennedy family -- Maeve Kennedy McKean and her son, Gideon -- was suspended 26 hours after they were reported missing in the Chesapeake Bay near Annapolis, Maryland, the Coast Guard said Friday night.",
             "url": "https://www.cnn.com/2020/04/03/politics/kennedy-boat-missing-chesapeake-bay/index.html",
             "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200403151722-maeve-kennedy-mckean-family-2019-super-tease.jpg",
-            "publishedAt": "2020-04-04T15:55:08+00:00",
+            "publishedAt": "2020-04-04T15:55:08Z",
             "content": "Washington (CNN)The search for two members of the Kennedy family -- Maeve Kennedy McKean and her son, Gideon -- was suspended 26 hours after they were reported missing in the Chesapeake Bay near Annapolis, Maryland, the Coast Guard said Friday night.\r\nAuthori\u2026 [+4712 chars]"
         },
         {
             "source": {
-                "id": "financial-times",
-                "name": "Financial Times"
+                "id": null,
+                "name": "Bleedinggreennation.com"
+            },
+            "author": "Brandon Lee Gowton",
+            "title": "Eagles News: Philadelphia is reportedly prioritizing speed in the 2020 NFL Draft - Bleeding Green Nation",
+            "description": "Philadelphia Eagles news and links for 4/4/20.",
+            "url": "https://www.bleedinggreennation.com/2020/4/4/21207997/eagles-news-philadelphia-prioritizing-speed-2020-nfl-draft-wide-receiver-howie-roseman-rumors",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/ZGjDHjQXfYv80fUzJ1nJRoqKVhc=/0x357:4846x2894/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19155708/1167060819.jpg.jpg",
+            "publishedAt": "2020-04-04T14:50:45Z",
+            "content": "Lets get to the Philadelphia Eagles links ...\r\nMatt Millers Scouting Notebook: Latest 2020 Draft Rumors for Every NFL Team - B/RPHILADELPHIA: Its no secret the Eagles need help at wide receiver, but Im told by sources with knowledge of the teams draft plans t\u2026 [+12053 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Rollingstone.com"
+            },
+            "author": "Daniel Kreps, Daniel Kreps",
+            "title": "Justin Timberlake Pays Tribute to Bill Withers: \u2018One of My Biggest Idols\u2019 - Rolling Stone",
+            "description": "\u201cYour words and melodies\u2026 the chords that accompanied them\u2026 they reached into my soul and spoke to me so deeply\u201d",
+            "url": "https://www.rollingstone.com/music/music-news/justin-timberlake-bill-withers-tribute-978501/",
+            "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2020/04/5883751d.jpg",
+            "publishedAt": "2020-04-04T13:56:49Z",
+            "content": "Justin Timberlake paid tribute to Bill Withers, \u201cone of my biggest idols,\u201d following the death of the legendary soul singer Friday at the age of 81.\r\n\u201cYou taught me so much about how to keep it simple and real. I felt such a kinship with you even before we me\u2026 [+1623 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Billboard.com"
+            },
+            "author": "Hilary Hughes",
+            "title": "Katy Perry Reveals the Sex of Her Baby in Sweet Photo - Billboard",
+            "description": "",
+            "url": "https://www.billboard.com/articles/news/9351289/katy-perry-baby-gender-reveal",
+            "urlToImage": "https://static.billboard.com/files/2020/03/Katy-Perry-march-8-2020-billboard-1548-1584725327-1024x677.jpg",
+            "publishedAt": "2020-04-04T13:34:05Z",
+            "content": "Katy Perry shared the sex of her and Orlando Bloom's baby with a sweet snapshot from their gender reveal celebration late Friday night (April 3).\r\nIn the photo, Perry's fianc\u00e9 and the dad-to-be of \"BabyCat\" is all smiles, his face completely and totally cover\u2026 [+432 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Si.com"
+            },
+            "author": "Pat Forde",
+            "title": "The Best Men's Final Four Games of All-Time - Sports Illustrated",
+            "description": "Which semifinal and national title games still stand out the most today?",
+            "url": "https://www.si.com/college/2020/04/04/best-final-four-games-march-madness-history",
+            "urlToImage": "https://www.si.com/.image/t_share/MTcxNjA0Mzk2MTA5NDczMTI4/best-ncaa-final-fours-lead.jpg",
+            "publishedAt": "2020-04-04T13:00:00Z",
+            "content": "The Final Four, which should be starting Saturday in Atlanta, is dearly missed. Thankfully, the NCAA has staged 81 previous tournaments, allowing us to fill the present-day void with a recollection of the best men's Final Four games ever. The 12 best semifina\u2026 [+13829 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Espn.com"
+            },
+            "author": "Jacob Wolf",
+            "title": "Derrick Jones Jr. upsets Kevin Durant in NBA 2K Players tourney - ESPN",
+            "description": "Derrick Jones Jr., the No. 16 seed, opened the NBA 2K Players Tournament with a bang Friday, upsetting top-seeded Kevin Durant 78-62.",
+            "url": "https://www.espn.com/esports/story/_/id/28993897/derrick-jones-jr-upsets-kevin-durant-nba-2k-players-tourney",
+            "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fnba%2F500%2Fbkn.png",
+            "publishedAt": "2020-04-04T05:19:16Z",
+            "content": "The NBA 2K Players Tournament started with a bang Friday night on ESPN.\r\nNo. 16 seed Derrick Jones Jr. upset No. 1 seed Kevin Durant 78-62 to lead off the evening. Jones and Durant faced off in a tense matchup -- this time not on the court, but on the sticks \u2026 [+3159 chars]"
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
             },
             "author": null,
-            "title": "US and Canada\u00a0discuss putting tariffs on Saudi and Russian oil",
-            "description": "Global deal to reduce production hangs in balance ahead of Opec+ meeting",
-            "url": "https://www.ft.com/content/5f4704e9-0942-4707-97c0-eba79f4fcbb8",
-            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F1d0b1169-79b7-4ebd-b6eb-0831292829b5.jpg?source=next-opengraph&fit=scale-down&width=900",
-            "publishedAt": "2020-04-04T15:53:04.3494193Z",
-            "content": "US and Canadian officials are discussing the imposition of tariffs on Saudi Arabian and Russian oil imports if the two members of the Opec+ group do not quickly reach a deal to end their price war.\r\nJason Kenney, the premier of Alberta \u2014 Canada\u2019s biggest oil \u2026 [+3629 chars]"
+            "title": "Trump fires intelligence community watchdog who defied him on whistleblower complaint - POLITICO",
+            "description": "The president informed Congress of the move in a Friday-evening letter to the House and Senate intelligence committees.",
+            "url": "https://www.politico.com/news/2020/04/03/trump-fires-intelligence-community-inspector-general-164287",
+            "urlToImage": "https://static.politico.com/0e/cb/7a18012a40f889b778d4bd6c616c/200403-atkinson-gty-773.jpg",
+            "publishedAt": "2020-04-04T03:31:31Z",
+            "content": "This is to advise that I am exercising my power as president to remove from office the inspector general of the intelligence community, effective 30 days from today, the president wrote.\r\nTrump said in the letter that he no longer has the fullest confidence i\u2026 [+6055 chars]"
         },
         {
             "source": {
-                "id": "bbc-sport",
-                "name": "BBC Sport"
+                "id": "the-next-web",
+                "name": "The Next Web"
             },
-            "author": "BBC Sport",
-            "title": "Republic of Ireland: Stephen Kenny to replace Mick McCarthy as manager",
-            "description": "Stephen Kenny replaces Mick McCarthy as Republic of Ireland manager with immediate effect after the Euro play-offs were indefinitely postponed.",
-            "url": "http://www.bbc.co.uk/sport/football/52168274",
-            "urlToImage": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/EBE7/production/_111619306_mccarthykenny.jpg",
-            "publishedAt": "2020-04-04T15:52:41Z",
-            "content": "Stephen Kenny has been managing the Republic of Ireland Under-21 side\r\nStephen Kenny is to succeed Mick McCarthy as Republic of Ireland manager with immediate effect, the Football Association of Ireland has announced.\r\nKenny, 48, was already set to replace Mc\u2026 [+3208 chars]"
+            "author": "Rachel Kaser",
+            "title": "Watch movies with your friends via Discord's livestreaming feature - The Next Web",
+            "description": "Welcome to\u00a0TNW Basics, a collection of tips, guides, and advice on how to easily get the most out of your gadgets, apps, and other stuff.\r\n\r\nDiscord is a great program if you're trying ...",
+            "url": "https://thenextweb.com/?p=1283236",
+            "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F05%2FDiscord-Featured.jpg&signature=262f454e88e9a8d1e064c683360011d3",
+            "publishedAt": "2020-04-03T23:33:08Z",
+            "content": "Welcome to\u00a0TNW Basics, a collection of tips, guides, and advice on how to easily get the most out of your gadgets, apps, and other stuff.\r\nDiscord is a great program if youre trying to keep in touch with online friends and in recent days thats become more imp\u2026 [+2639 chars]"
         },
         {
             "source": {
-                "id": "hacker-news",
-                "name": "Hacker News"
+                "id": null,
+                "name": "Droid-life.com"
             },
-            "author": null,
-            "title": "Ask HN: Best practices for ethical web scraping?",
-            "description": null,
-            "url": "https://news.ycombinator.com/item?id=22778089",
-            "urlToImage": null,
-            "publishedAt": "2020-04-04T15:52:09.8041056Z",
-            "content": "Nice you to ask this question and think about how to be as considerate as you can.Some other thoughts:\r\n- Find the most minimal, least expensive (for you and them both) way to get the data you're looking for. Sometimes you can iterate through search results p\u2026 [+775 chars]"
+            "author": "Tim",
+            "title": "Verizon Galaxy S10, Note 10 Updates Bring Sweet Galaxy S20 Features - Droid Life",
+            "description": "Verizon is pushing out updates to the Galaxy S10 and Galaxy Note 10 lineups to close this week out, with the update being a rather big one for these devices. Inside, you\u2019ll find One UI version 2.1, as well as the April security patch. We\u2019ve written about the \u2026",
+            "url": "https://www.droid-life.com/2020/04/03/verizon-galaxy-s10-note-10-lineups-updated-with-one-ui-2-1-and-april-security-patch/",
+            "urlToImage": "https://www.droid-life.com/wp-content/uploads/2019/09/Note-10-Plus-6-of-13-600x315-cropped.jpg",
+            "publishedAt": "2020-04-03T21:47:08Z",
+            "content": "Verizon is pushing out updates to the Galaxy S10 and Galaxy Note 10 lineups to close this week out, with the update being a rather big one for these devices.\r\nInside, you\u2019ll find One UI version 2.1, as well as the April security patch. We\u2019ve written about the\u2026 [+664 chars]"
         },
         {
             "source": {
-                "id": "the-irish-times",
-                "name": "The Irish Times"
+                "id": "engadget",
+                "name": "Engadget"
             },
-            "author": "The Irish Times",
-            "title": "Stephen Kenny replaces Mick McCarthy as Ireland manager",
-            "description": "FAI announce Ireland Under-21 manager will take the senior role with immediate effect",
-            "url": "https://www.irishtimes.com/\t\t\t\t\t\t\t/sport/soccer/international/stephen-kenny-replaces-mick-mccarthy-as-ireland-manager-1.4221198\t",
-            "urlToImage": "https://www.irishtimes.com/image-creator/?id=1.4221197&origw=1440",
-            "publishedAt": "2020-04-04T15:46:40Z",
-            "content": "Mick McCarthys second stint in charge of the Republic of Ireland is over, with Stephen Kenny taking the senior role with immediate effect, the FAI have announced.\r\nMcCarthy took over in November 2018, and was due to lead into a Euro 2020 play-off against Slov\u2026 [+2313 chars]"
+            "author": "Marc DeAngelis",
+            "title": "The latest iPad Pro disables mics when its case is closed - Engadget",
+            "description": "These days, any connected device with a microphone could arguably be treated with suspicion, from smart speakers to phones to computers. Apple helped to address privacy concerns in 2018 by adding a feature that disconnects MacBook microphones when the laptops\u2026",
+            "url": "https://www.engadget.com/2020-04-03-ipad-pro-mic-disconnect-security.html",
+            "urlToImage": "https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=80&image_uri=https%3A%2F%2Fs.yimg.com%2Fuu%2Fapi%2Fres%2F1.2%2FKvf6tO8e2rbBK69ZSPRPuw--%7EB%2Fdz0yNDAwO2g9MTM3MDthcHBpZD15dGFjaHlvbg--%2Fhttps%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fresize%3D2000%252C2000%252Cshrink%26image_uri%3Dhttps%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-03%2F73515600-6ef3-11ea-9f4f-064b19b6d6f7%26client%3Da1acac3e1b3290917d92%26signature%3Deb9c25548102132b76c0e6cfc4c6b521d4719d06&client=amp-blogside-v2&signature=282fc260da27ec0aa7ab3ad6011e9a2e5e9af094",
+            "publishedAt": "2020-04-03T19:17:34Z",
+            "content": "When the case's cover is closed, software can't access audio data, whether from a standard app or one with root privileges. This means that even if the iPad's firmware is affected by malware, a bad actor won't be able to listen in. For the feature to work, th\u2026 [+568 chars]"
         },
         {
             "source": {
-                "id": "rte",
-                "name": "RTE"
-            },
-            "author": "RT\u00c9 Sport",
-            "title": "Mick McCarthy reign ends as Kenny takes over in August",
-            "description": "Republic of Ireland manager Mick McCarthy is set to depart as manager and will be replaced by Stephen Kenny this summer.",
-            "url": "https://www.rte.ie/sport/soccer/2020/0404/1128534-mick-mccarthy-reign-ends-as-kenny-takes-over-in-august/",
-            "urlToImage": "https://img.rasset.ie/0013e9be-1600.jpg",
-            "publishedAt": "2020-04-04T15:30:19Z",
-            "content": "Republic of Ireland manager Mick McCarthy is set to depart as manager and will be replaced by Stephen Kenny this summer.\u00a0\r\nThe FAI informed McCarthy and his assistant Terry Connor this afternoon that they intend to honour the terms of Kenny's contract, which \u2026 [+1952 chars]"
-        },
-        {
-            "source": {
-                "id": "bbc-sport",
-                "name": "BBC Sport"
-            },
-            "author": "BBC Sport",
-            "title": "Justin Langer: Australia coach sees value in behind-closed-doors games",
-            "description": "Australia coach Justin Langer supports the idea of playing cricket behind closed doors when safe to do so as it will have \"great value\" to the public.",
-            "url": "http://www.bbc.co.uk/sport/cricket/52167632",
-            "urlToImage": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/376F/production/_111619141_justin_langer1_getty.jpg",
-            "publishedAt": "2020-04-04T15:29:17Z",
-            "content": "Langer has been head coach of the Australia men's team since May 2018\r\nAustralia coach Justin Langer supports the idea of playing cricket behind closed doors when safe to do so, as it will have \"great value\" to the public.\r\nLanger's side beat New Zealand at a\u2026 [+2274 chars]"
-        },
-        {
-            "source": {
-                "id": "reddit-r-all",
-                "name": "Reddit /r/all"
+                "id": null,
+                "name": "Youtube.com"
             },
             "author": null,
-            "title": "r/formula1 - Back in 2018 my daughter was undergoing treatment for leukaemia. We were stuck in hospital over Christmas and this legend turned up on Xmas Eve to say g'day to all the kids in the cancer ward. She has since made a full recovery and we joke that she and Daniel swapped luck that night.",
-            "description": "9,162 votes and 121 comments so far on Reddit",
-            "url": "https://www.reddit.com/r/formula1/comments/fus95l/back_in_2018_my_daughter_was_undergoing_treatment/",
-            "urlToImage": "https://preview.redd.it/ujh8no1lfsq41.jpg?auto=webp&s=a53027532e6fd9af5907c54bd7489df970cc39bf",
-            "publishedAt": "2020-04-04T15:24:00.3010563Z",
-            "content": "John Felix Anthony Cena Jr. is an American professional wrestler, actor, rapper, and television presenter. He is currently signed to WWE on a part-time deal. He is also the current host of Are You Smarter Than a Fifth Grader? on Nickelodeon, and has starred i\u2026 [+761 chars]"
-        },
-        {
-            "source": {
-                "id": "reddit-r-all",
-                "name": "Reddit /r/all"
-            },
-            "author": null,
-            "title": "r/funny - Sad but true",
-            "description": "11,460 votes and 138 comments so far on Reddit",
-            "url": "https://www.reddit.com/r/funny/comments/fusc02/sad_but_true/",
-            "urlToImage": "https://preview.redd.it/cpizf4rsgsq41.jpg?auto=webp&s=cbc9be612401def02c9080f2fa2b8d87389d0a9a",
-            "publishedAt": "2020-04-04T15:23:57.1600698Z",
-            "content": "I loved that one. I think my uncle had a game that looked a lot like it, and for the longest time I thought there was a hidden way to control the screensaver.\r\nAnyone know what that game might have been?"
-        },
-        {
-            "source": {
-                "id": "reddit-r-all",
-                "name": "Reddit /r/all"
-            },
-            "author": null,
-            "title": "r/CozyPlaces - Cozy garden library",
-            "description": "9,884 votes and 112 comments so far on Reddit",
-            "url": "https://www.reddit.com/r/CozyPlaces/comments/fusc6a/cozy_garden_library/",
-            "urlToImage": "https://preview.redd.it/j09w0nyogsq41.jpg?auto=webp&s=56c86c66ab62c5a9906460b820901c9dc4f4cc18",
-            "publishedAt": "2020-04-04T15:23:55.6445895Z",
-            "content": "The Sims is a series of life simulation video games developed by Maxis and published by Electronic Arts. The franchise has sold nearly 200 million copies worldwide, and it is one of the best-selling video game series of all time.\r\nThe games in the Sims series\u2026 [+560 chars]"
-        },
-        {
-            "source": {
-                "id": "reddit-r-all",
-                "name": "Reddit /r/all"
-            },
-            "author": null,
-            "title": "r/Art - Galactic Goddess, Me, Face Paint, 2020",
-            "description": "0 votes and 140 comments so far on Reddit",
-            "url": "https://www.reddit.com/r/Art/comments/futwcc/galactic_goddess_me_face_paint_2020/",
-            "urlToImage": "https://preview.redd.it/cptsahqk1tq41.jpg?auto=webp&s=c1e0bad38ce12b05328970c55abe0dec547604c3",
-            "publishedAt": "2020-04-04T15:23:54.2832869Z",
-            "content": "God that's amazing work, love everything, simply stunning, good job."
-        },
-        {
-            "source": {
-                "id": "reddit-r-all",
-                "name": "Reddit /r/all"
-            },
-            "author": null,
-            "title": "Hurry! Offer ends soon. Stay in &amp; SLING. Free TV for 14 days. 45+ live channels, cloud DVR &amp; watch on 3 screens simultaneously. No credit card required.",
-            "description": null,
-            "url": "https://alb.reddit.com/cr?p=gAAAAABeiKZOBHXuB9VYT3ldrS6dfQFmEmu77gK93vMc6T39TUvax_0JyOQrfZMUqaViYVApZLljzeLsLz3NpS02Rr9D2J8GeRWmBDZTuQ3L47iTxKjyb5EKiHW1x2E2gdGyuXVtnot2fLxSDmgM-lTrBtoiH9MyAB_HT2qeS7s3Xy03iTEri8OYwZMpspnd3EZkwjpEJcOu-io3tEOLeoXUYW5KAz5wqKp_MzuFW097F3fElUxUePQciGPXiMcasOVjpGmT97DTo-dr1Ai7OL_cCPmtzW8kAArTQ9AGS9kdrtpzQAZ7ZZwA07Y-Lvf_-4Qi2Dgq7T7-PbrMLqY58AZZZtkB5nN6OemQqMN29GrLsLEDzpcP-TTOk19KJ6iKK6cPuQC_2kas-ZykGx5ji-HOFAunQ6xMHFQWfoP0FpIuVexK9-wE4ZhBeTZpi9QWD-lcKlXwL10Q_UCqmD8Y84yQDImWh5WosoiCplzHhXu_CVT85mWyROTR43ydVZo4uv_1GN0_LEBuWgo1CsSEgDqbEmXxPGJAx0Vy1cr9w0X1jvq70BoN_Wsm1-EbjZEMx9lX4QOVlIT8",
-            "urlToImage": null,
-            "publishedAt": "2020-04-04T15:23:47.5198006Z",
+            "title": "A Universe of Possibilities to Explore at Home on This Week @NASA \u2013 April 3, 2020 - NASA",
+            "description": "You, plus \u201cNASA at Home\u201d equals a universe of possibilities, the first delivery service selected for our lunar Gateway, and an astronaut added to a future Co...",
+            "url": "https://www.youtube.com/watch?v=XMFE35LbcJs",
+            "urlToImage": "https://i.ytimg.com/vi/XMFE35LbcJs/maxresdefault.jpg",
+            "publishedAt": "2020-04-03T18:51:01Z",
             "content": null
         },
         {
             "source": {
-                "id": "ign",
-                "name": "IGN"
+                "id": null,
+                "name": "Designboom.com"
             },
             "author": null,
-            "title": "DuckTales: \"Quack Pack\" Exclusive Clip - IGN",
-            "description": "In this episode of DuckTales, titled \"Quack Pack,\" the family is not quite themselves as they discover the planned family photoshoot might just be a part of a bigger wish gone wrong. \"Quack Pack\" premieres Saturday, April 4 at 10:00 a.m. ET/PT on DisneyXD and\u2026",
-            "url": "https://www.ign.com/videos/ducktales-quack-pack-exclusive-clip",
-            "urlToImage": "https://assets1.ignimgs.com/thumbs/userUploaded/2020/4/2/36190303ducktales2-1585854925693.jpg?width=1280",
-            "publishedAt": "2020-04-04T15:23:45.8662125Z",
-            "content": "How was your video watching experience?"
-        },
-        {
-            "source": {
-                "id": "cbc-news",
-                "name": "CBC News"
-            },
-            "author": "CBC News",
-            "title": "Mexico joins Canada, notifies U.S. it's ready to implement new NAFTA | CBC News",
-            "description": "The Mexican government notified Canada and the U.S. late Friday that it is ready to implement the revised North American trade agreement, leaving it up to the Americans now to decide when the deal should take effect.",
-            "url": "http://www.cbc.ca/news/politics/saturday-nafta-notification-1.5522007",
-            "urlToImage": "https://i.cbc.ca/1.5522032.1586011083!/cpImage/httpImage/image.jpg_gen/derivatives/16x9_620/canada-mexico-20191129.jpg",
-            "publishedAt": "2020-04-04T15:23:16.4259757Z",
-            "content": "The Mexican government notified Canada and the U.S. late Friday that it is ready to implement the revised North American trade agreement, leaving it up to the Americans now to decide when the deal should take effect.\r\nJes\u00fas Seade, Mexico's chief negotiator, a\u2026 [+2970 chars]"
-        },
-        {
-            "source": {
-                "id": "rte",
-                "name": "RTE"
-            },
-            "author": "James Beattie",
-            "title": "Five positive things happening now",
-            "description": "From pet therapy to balcony aerobics, here are five things keeping people busy and entertained right now.",
-            "url": "https://www.rte.ie/news/2020/0404/1128529-five-positive-things-happening-now/",
-            "urlToImage": "https://img.rasset.ie/00140257-1600.jpg",
-            "publishedAt": "2020-04-04T15:06:41Z",
-            "content": "From pet therapy to balcony aerobics, here are five things keeping people busy and entertained right now.\r\n1) 91-year-old Christy Carroll, from Co Waterford, is keeping occupied while cocooning, by playing with his daughter's puppy Poppy.\r\n2) At an apartment \u2026 [+471 chars]"
-        },
-        {
-            "source": {
-                "id": "ign",
-                "name": "IGN"
-            },
-            "author": "Kelly Knox",
-            "title": "What Is Marvel's What If\u2026? The Disney Plus Animated Series Explained - IGN",
-            "description": "Prepare to join the Watcher for tales of what might have been in the MCU with the Disney+ series What If\u2026?",
-            "url": "https://www.ign.com/articles/what-is-marvels-what-if-disney-plus-mcu",
-            "urlToImage": "https://assets1.ignimgs.com/2020/04/03/marvelwhatifexplained-blogroll-1585872250766.jpg?width=1280",
-            "publishedAt": "2020-04-04T15:05:18Z",
-            "content": "Do you dream about the Avengers gang returning to their roles from the big screen? Marvel is here to grant your wish sort of. The animated series What If?, coming to Disney+ in 2021, brings back over 20 of your favorite Marvel Cinematic Universe actors as the\u2026 [+6728 chars]"
-        },
-        {
-            "source": {
-                "id": "reuters",
-                "name": "Reuters"
-            },
-            "author": "Rania El Gamal",
-            "title": "OPEC+ meeting delayed as Saudi Arabia and Russia row over oil price collapse: sources",
-            "description": "OPEC and Russia have postponed a meeting due on Monday to discuss oil output cuts until April 9, OPEC sources said on Saturday, as a row between Moscow and Saudi Arabia over who is to blame for plunging crude prices intensified.",
-            "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/R51LVHcnxQo/opec-meeting-delayed-as-saudi-arabia-and-russia-row-over-oil-price-collapse-sources-idUSKBN21M0FY",
-            "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20200404&t=2&i=1512382248&w=1200&r=LYNXMPEG330BJ",
-            "publishedAt": "2020-04-04T15:02:11Z",
-            "content": "DUBAI/MOSCOW (Reuters) - OPEC and Russia have postponed a meeting due on Monday to discuss oil output cuts until April 9, OPEC sources said on Saturday, as a row between Moscow and Saudi Arabia over who is to blame for plunging crude prices intensified. \r\nThe\u2026 [+4293 chars]"
-        },
-        {
-            "source": {
-                "id": "associated-press",
-                "name": "Associated Press"
-            },
-            "author": "The Associated Press",
-            "title": "What you need to know today about the virus outbreak",
-            "description": "As the number of infections has grown to more than 1.1 million worldwide, health care systems are straining under the surge of patients and lack of medical equipment like ventilators, protective...",
-            "url": "https://apnews.com/ae7eeff27eb887155470213858aa696a",
-            "urlToImage": "",
-            "publishedAt": "2020-04-04T14:59:53Z",
-            "content": null
-        },
-        {
-            "source": {
-                "id": "techcrunch",
-                "name": "TechCrunch"
-            },
-            "author": "Jason Shen",
-            "title": "Cultivating adaptability is a pandemic coping skill",
-            "description": "It\u2019s clear that the people who can let go of their past plans and embrace the new environment ahead will thrive.",
-            "url": "https://techcrunch.com/2020/04/04/cultivating-adaptability-is-a-pandemic-coping-skill/",
-            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/04/GettyImages-521752820.jpg?w=515",
-            "publishedAt": "2020-04-04T14:59:50Z",
-            "content": "Its no secret that adaptability has become a critical trait for knowledge workers. To stay on top of a rapidly evolving world, we must assess new situations, make intelligent decisions and implement them effectively.\r\nA 2014 research report by Barclays indica\u2026 [+8683 chars]"
-        },
-        {
-            "source": {
-                "id": "cbs-news",
-                "name": "CBS News"
-            },
-            "author": "CBS News",
-            "title": "Business owners say their personal data is being leaked on federal loan site",
-            "description": "One owner went online to the SBA site and found someone else's date of birth, social security number, email, phone numbers and business address all filled in on the loan registration page.",
-            "url": "https://www.cbsnews.com/news/business-owners-say-their-personal-data-is-being-leaked-on-federal-loan-site/",
-            "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/04/04/a5f15a1e-2c18-4eaf-a283-2128cf4d2e52/thumbnail/1200x630/e225ba22725fec9a541908a2e7b23e38/0404-satmo-smallbusiness-2052463-640x360.jpg",
-            "publishedAt": "2020-04-04T14:58:04+00:00",
-            "content": "Small businesses across the U.S. have reported personal data leaks after applying for a disaster loan from the Small Business Administration. The SBA has yet to acknowledge the leaks, and its website was plagued by maintenance shutdowns in late March. The age\u2026 [+2010 chars]"
-        },
-        {
-            "source": {
-                "id": "financial-times",
-                "name": "Financial Times"
-            },
-            "author": null,
-            "title": "Music companies threaten to sue TikTok over copyright",
-            "description": "Universal and others accuse video-sharing app of using their songs without licences",
-            "url": "https://www.ft.com/content/1b3b78ea-32a3-4237-8b79-3595820eeb63",
-            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4da04337-f180-4c3f-8473-64476d1468f3.jpg?source=next-opengraph&fit=scale-down&width=900",
-            "publishedAt": "2020-04-04T14:53:18.5733059Z",
-            "content": "A body representing thousands of music publishing companies, including Universal, has threatened to sue video-sharing app TikTok for copyright infringement.\r\nTikTok has soared in popularity as millions of people upload short clips of themselves on the app, of\u2026 [+3599 chars]"
-        },
-        {
-            "source": {
-                "id": "hacker-news",
-                "name": "Hacker News"
-            },
-            "author": "David McDonald",
-            "title": "Gov.uk Notify reliably sends text messages to users",
-            "description": "The Notify team has adjusted its method of sending out text messages to maintain Notify's reliability. In this post we explain how it was done.",
-            "url": "https://gds.blog.gov.uk/2020/04/03/how-gov-uk-notify-reliably-sends-text-messages-to-users/",
-            "urlToImage": "https://gds.blog.gov.uk/wp-content/themes/gds-blogs/build/govuk_template/assets/images/opengraph-image.png?0.22.3",
-            "publishedAt": "2020-04-04T14:52:54.1678979Z",
-            "content": "https://gds.blog.gov.uk/2020/04/03/how-gov-uk-notify-reliably-sends-text-messages-to-users/\r\nGOV.UK Notify lets central government, local authorities and the NHS send emails, text messages and letters to their users.\r\nWe usually send between 100,000 and 200,0\u2026 [+5623 chars]"
+            "title": "NASA brings back iconic 'worm' logo for spaceX falcon 9 rocket - Designboom",
+            "description": "",
+            "url": "https://www.designboom.com/design/nasa-worm-logo-spacex-falcon-9-rocket-04-03-2020/",
+            "urlToImage": "https://www.designboom.com/wp-content/uploads/2020/04/nasa-worm-logo-spacex-falcon-9-rocket-designboom-1200.jpg",
+            "publishedAt": "2020-04-03T08:55:42Z",
+            "content": "NASA is bringing back its iconic \u2018worm\u2019 logo from the 1970s for spaceX\u2019s upcoming falcon 9 crew dragon launch. retired in 1992, the famous design is making a comeback to celebrate the return of orbital human spaceflight to american shores.\r\nthe worm logo was \u2026 [+1050 chars]"
         }
     ]
 }

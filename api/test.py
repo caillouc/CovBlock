@@ -76,14 +76,14 @@ def makeRequest():
     # business entertainment general health science sports technology
     # for get : args.get
     # fro post .form
-    blockingPourcentage = request.form.get('blockingPourcentage')
+    blockingPourcentage = int(request.form.get('blockingPourcentage'))
     language = request.form.get('language')
     category = request.form.get('category')
     country = request.form.get('country')
-    print("blokingPourcentage : " + str(blockingPourcentage))
-    print("language : " + language)
-    print("category : " + category)
-    print("country : " + country)
+    #print("blokingPourcentage : " + str(blockingPourcentage))
+    #print("language : " + language)
+    #print("category : " + category)
+    #print("country : " + country)
     return jsonify(sendRequests(blockingPourcentage, language, category, country))
 
 
