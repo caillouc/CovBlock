@@ -19,13 +19,13 @@ $ pip3 install newsapi-python
 
 * Then go in `api/` folder and run the following command :
 
-```bash
+```zsh
 $ python3 news.py
 ````
 
 * To send an http post request to can use `httpie`. You can install it with : 
 
-```bash
+```zsh
 $ sudo apt install httpie
 ```
 
@@ -33,13 +33,13 @@ You might need to use `pacman` or `brew` instead of `apt` depending on your oper
 
 Then you can use this command : 
 
-```bash 
+```zsh 
 $ http -f POST localhost:1415/news blockingPourcentage="100" 
 ```
 
 or : 
 
-```bash
+```zsh
 $ http -f POST localhost:1415/news blockingPourcentage="100" category="sports" country="fr"
 ````
 
