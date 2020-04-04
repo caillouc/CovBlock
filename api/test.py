@@ -71,15 +71,15 @@ def sendRequests(blockingPourcentage, language, category, country):
     return top_headlines_no_filter
 
 
-@app.route('/news', methods=['GET'])
+@app.route('/news', methods=['POST'])
 def makeRequest():
     # business entertainment general health science sports technology
     # for get : args.get
     # fro post .form
-    blockingPourcentage = request.args.get('blockingPourcentage')
-    language = request.args.get('language')
-    category = request.agrs.get('category')
-    country = request.args.get('country')
+    blockingPourcentage = request.form.get('blockingPourcentage')
+    language = request.form.get('language')
+    category = request.form.get('category')
+    country = request.form.get('country')
     print("blokingPourcentage : " + str(blockingPourcentage))
     print("language : " + language)
     print("category : " + category)
