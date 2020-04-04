@@ -9,12 +9,9 @@ app = Flask(__name__)
 
 ## CONSTANTES ##
 API_KEY = "f0a443efaaec4868978a2e693c779496"
-MOTS_CORONA = {
-    "fr": ["corona", "covid", "covid-19", "coronavirus",
-           "confinement", "quarantaine", "quinzaine", "wuhan"],
-    "en": ["corona", "covid", "covid-19", "coronavirus",
-           "lockdown", "quarantine", "wuhan"]
-}
+MOTS_CORONA = ["corona", "covid", "covid-19", "coronavirus",
+               "confinement", "quarantaine", "quinzaine", "wuhan", "lockdown", "quarantine", "wuhan"]
+
 MAX_PAGE_SIZE = 100
 
 
@@ -31,12 +28,10 @@ def removeEmptyEntries(newsDictionary):
     newsDictionary["totalResults"] = len(newsDictionary["articles"])
 
 
-def removeOccurences(wordsToRemove, language, newsDictionary, blockingPourcentage):
+def removeOccurences(wordsToRemove, newsDictionary, blockingPourcentage):
     needToRemove = []
-    if language is None:
-        language = 'en'
     for a in newsDictionary["articles"]:
-        for m in wordsToRemove[language]:
+        for m in wordsToRemove:
             if ((a["title"] is not None and m in a["title"].lower()) or (a["description"] is not None and m in a["description"].lower()) or (a["url"] is not None and m in a["url"].lower()) or (a["urlToImage"] is not None and m in a["urlToImage"].lower()) or (a.get("content") is not None and m in a["content"].lower())):
                 if a not in needToRemove:
                     needToRemove.append(a)
@@ -47,10 +42,8 @@ def removeOccurences(wordsToRemove, language, newsDictionary, blockingPourcentag
     newsDictionary["totalResults"] = len(newsDictionary["articles"])
 
 
-def getNewsHeadlines(news_api, language, page_size, category, country):
-    if language is None:
-        language = 'en'
-    return news_api.get_top_headlines(category=category, language=language, page_size=page_size, country=country)
+def getNewsHeadlines(news_api, page_size, category, country):
+    return news_api.get_top_headlines(category=category, page_size=page_size, country=country)
 
 
 def writeInFile(file, dataJson):
@@ -58,15 +51,14 @@ def writeInFile(file, dataJson):
         json.dump(dataJson, f)
 
 
-def sendRequests(blockingPourcentage, language, category, country):
+def sendRequests(blockingPourcentage, category, country):
 
     news_api = NewsApiClient(api_key=API_KEY)
     top_headlines_no_filter = getNewsHeadlines(
-        news_api, language, MAX_PAGE_SIZE, category, country)
+        news_api, MAX_PAGE_SIZE, category, country)
     writeInFile("INITIAL_DATA.json", top_headlines_no_filter)
     removeEmptyEntries(top_headlines_no_filter)
-    removeOccurences(MOTS_CORONA, language,
-                     top_headlines_no_filter, blockingPourcentage)
+    removeOccurences(MOTS_CORONA, top_headlines_no_filter, blockingPourcentage)
     writeInFile('FILTERED_DATA.json', top_headlines_no_filter)
     return top_headlines_no_filter
 
@@ -77,14 +69,12 @@ def makeRequest():
     # for get : args.get
     # fro post .form
     blockingPourcentage = int(request.form.get('blockingPourcentage'))
-    language = request.form.get('language')
     category = request.form.get('category')
     country = request.form.get('country')
     #print("blokingPourcentage : " + str(blockingPourcentage))
-    #print("language : " + language)
     #print("category : " + category)
     #print("country : " + country)
-    return jsonify(sendRequests(blockingPourcentage, language, category, country))
+    return jsonify(sendRequests(blockingPourcentage, category, country))
 
 
 ## MAIN ##
