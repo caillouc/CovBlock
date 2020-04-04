@@ -52,28 +52,21 @@ def writeInFile(file, dataJson):
 
 
 def sendRequests(blockingPourcentage, category, country):
-
-    news_api = NewsApiClient(api_key=API_KEY)
+    `news_api = NewsApiClient(api_key=API_KEY)
     top_headlines_no_filter = getNewsHeadlines(
         news_api, MAX_PAGE_SIZE, category, country)
-    writeInFile("INITIAL_DATA.json", top_headlines_no_filter)
     removeEmptyEntries(top_headlines_no_filter)
-    removeOccurences(MOTS_CORONA, top_headlines_no_filter, blockingPourcentage)
-    writeInFile('FILTERED_DATA.json', top_headlines_no_filter)
+    removeOccurences(MOTS_CORONA, top_headlines_no_filter,
+                     blockingPourcentage)
     return top_headlines_no_filter
 
 
 @app.route('/news', methods=['POST'])
 def makeRequest():
-    # business entertainment general health science sports technology
-    # for get : args.get
-    # fro post .form
+        # list category : business entertainment general health science sports technology
     blockingPourcentage = int(request.form.get('blockingPourcentage'))
     category = request.form.get('category')
     country = request.form.get('country')
-    #print("blokingPourcentage : " + str(blockingPourcentage))
-    #print("category : " + category)
-    #print("country : " + country)
     return jsonify(sendRequests(blockingPourcentage, category, country))
 
 
