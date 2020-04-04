@@ -1,0 +1,54 @@
+
+
+
+p
+{
+    border-radius: 10px;
+    background-color: green;
+}
+#dany
+{
+    float: left;
+    width: 60%;
+    margin: 5px;
+    text-align: center;
+}
+#kajetan
+{
+    float: right;
+    width: 37%;
+    margin: 5px;
+    text-align: center;
+}
+nav
+{
+    border-color: brown;
+    border: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    display: block;
+}
+table.center
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#conte
+{
+    align-items: center;
+}
+h1{
+    border-radius: 20px;
+    text-align: center;
+    background-color: brown;
+}
+.btn {
+    font-size: 20px;
+}
+.btn-danger {
+    background: red;
+}
+.btn-success {
+    background: green;
+}
