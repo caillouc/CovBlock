@@ -25,7 +25,7 @@ def removeEmptyEntries(newsDictionary):
     for a in newsDictionary["articles"]:
         if(a["title"] is None or a["title"] == ''):
             needToRemove.append(a)
-            
+
     for a in needToRemove:
         newsDictionary["articles"].remove(a)
     newsDictionary["totalResults"] = len(newsDictionary["articles"])
@@ -63,6 +63,7 @@ def sendRequests(blockingPourcentage, language, category, country):
     top_headlines_no_filter = getNewsHeadlines(
         news_api, language, MAX_PAGE_SIZE, category, country)
     writeInFile("INITIAL_DATA.json", top_headlines_no_filter)
+    removeEmptyEntries(top_headlines_no_filter)
     removeOccurences(MOTS_CORONA, language,
                      top_headlines_no_filter, blockingPourcentage)
     writeInFile('FILTERED_DATA.json', top_headlines_no_filter)
