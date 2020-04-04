@@ -1,16 +1,7 @@
 <p>Principal content works</p>
 
 <button (click)="data_requested()" id="request">get data from server</button>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-<p>Principal content works</p>
-
-<p *ngIf="data">DATA</p>
+<div *ngFor="let article of data.articles">
+    <p *ngIf="article">{{article.description}}</p>
+</div>
 

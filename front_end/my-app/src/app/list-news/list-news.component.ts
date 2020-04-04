@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-list-news',
@@ -9,13 +9,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class ListNewsComponent implements OnInit {
 
   data;
-  httpOptions = {
-    headers: new HttpHeaders(
-      {
-        "Access-Control-Allow-Origin": "*"
-      }
-    )
-  }
   constructor(private http:HttpClient) { }
 
   ngOnInit(): void {
@@ -25,16 +18,9 @@ export class ListNewsComponent implements OnInit {
     this.http.get<any>("http://localhost:1415/news?blockingPourcentage=100")
     .subscribe(d =>
       {
-        window.alert("yo");
+        console.log(d.articles[0].description);
         this.data = d;
       }  
     );
-    /*this.http.post<any>("http://localhost:1415/news", {"blockingPourcentage":100 })
-    .subscribe(d =>
-      {
-        console.log("received data");
-        this.data = d;
-      }
-    );*/
   }
 }

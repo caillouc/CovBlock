@@ -1,6 +1,11 @@
 #request
 {
-    background-color: red;
+    background-color: rgb(228, 110, 110);
     left: 45%;
     right: 45%;
+}
+
+p
+{
+    background-color: rgb(126, 109, 224);
 }
