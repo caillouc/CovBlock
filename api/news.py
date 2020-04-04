@@ -1,11 +1,13 @@
 from newsapi import NewsApiClient
 from random import randrange
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import json
 import time
 import sys
 
 app = Flask(__name__)
+CORS(app)
 
 ## CONSTANTES ##
 API_KEY = "f0a443efaaec4868978a2e693c779496"
@@ -60,12 +62,17 @@ def sendRequests(blockingPourcentage, category, country):
     return top_headlines_no_filter
 
 
-@app.route('/news', methods=['POST'])
+@app.route('/news', methods=['GET','POST'])
 def makeRequest():
     # list category : business entertainment general health science sports technology
-    blockingPourcentage = int(request.form.get('blockingPourcentage'))
-    category = request.form.get('category')
-    country = request.form.get('country')
+    if request.method == "POST":
+        blockingPourcentage = int(request.form.get('blockingPourcentage'))
+        category = request.form.get('category')
+        country = request.form.get('country')
+    else:
+        blockingPourcentage = int(request.args.get('blockingPourcentage'))
+        category = None
+        country = None
     return jsonify(sendRequests(blockingPourcentage, category, country))
 
 
