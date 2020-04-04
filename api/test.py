@@ -5,7 +5,7 @@ import json
 import time
 import sys
 
- app = Flask(__name__)
+app = Flask(__name__)
 
 ## CONSTANTES ##
 API_KEY = "f0a443efaaec4868978a2e693c779496"
