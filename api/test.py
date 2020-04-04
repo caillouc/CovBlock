@@ -1,6 +1,9 @@
-import json
 from newsapi import NewsApiClient
 from random import randrange
+from flask import Flask, request, jsonify
+import json
+import time
+import sys
 ## CONSTANTES ##
 API_KEY = "f0a443efaaec4868978a2e693c779496"
 MOTS_CORONA = {
@@ -15,14 +18,15 @@ MAX_PAGE_SIZE = 100
 ## METHODES ##
 
 
-def removeOccurences(wordsToRemove, newsDictionary, blokingPourcentage):
+def removeOccurences(wordsToRemove, language, newsDictionary, blokingPourcentage):
     needToRemove = []
+    if language is None:
+        language = 'en'
     for a in newsDictionary["articles"]:
-        for m in wordsToRemove["en"]:
+        for m in wordsToRemove[language]:
             if ((a["title"] is not None and m in a["title"].lower()) or (a["description"] is not None and m in a["description"].lower()) or (a["url"] is not None and m in a["url"].lower()) or (a["urlToImage"] is not None and m in a["urlToImage"].lower()) or (a.get("content") is not None and m in a["content"].lower())):
                 if a not in needToRemove:
                     needToRemove.append(a)
-
     for a in needToRemove:
         i = randrange(100)
         if i <= blokingPourcentage:
@@ -30,8 +34,10 @@ def removeOccurences(wordsToRemove, newsDictionary, blokingPourcentage):
     newsDictionary["totalResults"] = len(newsDictionary["articles"])
 
 
-def getNewsHeadlines(news_api, language, page_size):
-    return news_api.get_top_headlines(language=language, page_size=page_size)
+def getNewsHeadlines(news_api, language, page_size, category, country):
+    if language is None:
+        language = 'en'
+    return news_api.get_top_headlines(category=category, language=language, page_size=page_size, country=country)
 
 
 def writeInFile(file, dataJson):
@@ -39,16 +45,55 @@ def writeInFile(file, dataJson):
         json.dump(dataJson, f)
 
 
-def main():
+def sendRequests(blokingPourcentage, language, category, country):
 
-    blokingPourcentage = 50
     news_api = NewsApiClient(api_key=API_KEY)
     top_headlines_no_filter = getNewsHeadlines(
-        news_api, 'en', MAX_PAGE_SIZE)
+        news_api, language, MAX_PAGE_SIZE, category, country)
     writeInFile("INITIAL_DATA.json", top_headlines_no_filter)
-    removeOccurences(MOTS_CORONA, top_headlines_no_filter, blokingPourcentage)
+    removeOccurences(MOTS_CORONA, language,
+                     top_headlines_no_filter, blokingPourcentage)
     writeInFile('FILTERED_DATA.json', top_headlines_no_filter)
+    return top_headlines_no_filter
+
+
+@app.route('/news', methods=['GET'])
+def request():
+    # given by the front end
+    #blokingPourcentage = 100
+    # ar de en es fr he it nl no pt ru se ud zh
+    #language = None
+    # business entertainment general health science sports technology
+    #category = None
+    # ae ar at au be bg br ca ch cn co cu cz de eg fr gb gr hk hu id ie il in it jp kr lt lv ma mx my ng nl no nz ph pl pt ro rs ru sa se sg si sk th tr tw ua us ve za
+    #country = None
+    blokingPourcentage = request.form('blokingPourcentage')
+    language = request.args.get('language')
+    category = request.args.get('category')
+    country = request.args.get('country')
+    return jsonify(sendRequests(blokingPourcentage, language, category, country))
+
+
+## MAIN ##
+
+
+def main():
+    app = Flask(__name__)
+
+    timeout = 1800.0  # 30 min
+    while True:
+        #print("send Request")
+        sendRequests()
+        starttime = time.time()
+        while time.time() - starttime < timeout:
+            # check communication with front end
+            # if interaction, go out
+            pass
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("Au revoir !")
+        sys.exit(0)
