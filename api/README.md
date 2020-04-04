@@ -15,6 +15,7 @@
 ```bash
 $ pip3 install flask
 $ pip3 install newsapi-python
+$ pip3 install flask-cors
 ```
 
 * Then go in `api/` folder and run the following command :
