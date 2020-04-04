@@ -1,0 +1,799 @@
+{
+    "status": "ok",
+    "totalResults": 61,
+    "articles": [
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "Arundhati Roy: \u2018The pandemic is a portal\u2019",
+            "description": "The novelist on how coronavirus threatens India \u2014 and what the country, and the world, should do next",
+            "url": "https://www.ft.com/content/10d8f5e8-74eb-11ea-95fe-fcd274e920ca",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F6c411e04-7506-11ea-90ce-5fb6c07a27f2?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2020-04-04T14:53:24.6811638Z",
+            "content": "Who can use the term \u201cgone viral\u201d now without shuddering a little? Who can look at anything any more \u2014 a door handle, a cardboard carton, a bag of vegetables \u2014 without imagining it swarming with those unseeable, undead, unliving blobs dotted with suction pads\u2026 [+16875 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Heather Braga",
+            "title": "20 Best Movies To Stream For Children",
+            "description": "Make some popcorn and gather your fam \u2014 it's about to be movie night every night.",
+            "url": "https://www.buzzfeed.com/hbraga/best-movies-to-stream-for-children",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-03/31/14/campaign_images/6ac2eb6b5376/20-best-movies-to-stream-for-children-2-7950-1585665285-18_dblbig.jpg",
+            "publishedAt": "2020-04-04T14:53:20.2028684Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "Music companies threaten to sue TikTok over copyright",
+            "description": "Universal and others accuse video-sharing app of using their songs without licences",
+            "url": "https://www.ft.com/content/1b3b78ea-32a3-4237-8b79-3595820eeb63",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F4da04337-f180-4c3f-8473-64476d1468f3.jpg?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2020-04-04T14:53:18.5733059Z",
+            "content": "A body representing thousands of music publishing companies, including Universal, has threatened to sue video-sharing app TikTok for copyright infringement.\r\nTikTok has soared in popularity as millions of people upload short clips of themselves on the app, of\u2026 [+3599 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Morgan Murrell",
+            "title": "21 Great Tweet Distractions If You Need To Get Your Mind Off Of The Coronavirus",
+            "description": "L O L!",
+            "url": "https://www.buzzfeed.com/morganmurrell/bad-day-tweets-4-4-2020",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/4/14/enhanced/dade895836f3/original-2968-1586009784-3.jpg?crop=1243:650;0,89",
+            "publishedAt": "2020-04-04T14:53:14.0169356Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "financial-times",
+                "name": "Financial Times"
+            },
+            "author": null,
+            "title": "US coronavirus hotspots desperately seek trained medical staff",
+            "description": "Appeals made to bring more doctors, nurses and healthcare workers into hardest-hit regions",
+            "url": "https://www.ft.com/content/096caf0d-d5c7-4198-8e09-32ef8045a480",
+            "urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F74dfb01e-1fa4-4637-9bc7-970c3cb53c06.jpg?source=next-opengraph&fit=scale-down&width=900",
+            "publishedAt": "2020-04-04T14:52:57.5741648Z",
+            "content": "In New York, hospital beds are being set up in Central Park, inside a vast conference centre, and on a military vessel moored off Manhattan. Across the US,\u00a0carmakers are producing ventilators, distilleries are making hand sanitiser and tailors are sewing face\u2026 [+6069 chars]"
+        },
+        {
+            "source": {
+                "id": "hacker-news",
+                "name": "Hacker News"
+            },
+            "author": "David McDonald",
+            "title": "Gov.uk Notify reliably sends text messages to users",
+            "description": "The Notify team has adjusted its method of sending out text messages to maintain Notify's reliability. In this post we explain how it was done.",
+            "url": "https://gds.blog.gov.uk/2020/04/03/how-gov-uk-notify-reliably-sends-text-messages-to-users/",
+            "urlToImage": "https://gds.blog.gov.uk/wp-content/themes/gds-blogs/build/govuk_template/assets/images/opengraph-image.png?0.22.3",
+            "publishedAt": "2020-04-04T14:52:54.1678979Z",
+            "content": "https://gds.blog.gov.uk/2020/04/03/how-gov-uk-notify-reliably-sends-text-messages-to-users/\r\nGOV.UK Notify lets central government, local authorities and the NHS send emails, text messages and letters to their users.\r\nWe usually send between 100,000 and 200,0\u2026 [+5623 chars]"
+        },
+        {
+            "source": {
+                "id": "techcrunch",
+                "name": "TechCrunch"
+            },
+            "author": "Sarah Perez",
+            "title": "This Week in Apps: Zoom has issues, Pinterest founder's new COVID-19 research app, record Q1 spending",
+            "description": "This week... how the COVID-19 outbreak is impacting apps and the wider mobile app industry, more leaks about the new version of iOS, Apple bought Dark Sky, and more.",
+            "url": "https://techcrunch.com/2020/04/04/this-week-in-apps-zoom-has-issues-pinterest-founders-new-covid-19-research-app-record-q1-spending/",
+            "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/02/this-week-in-apps-splash.png?w=753",
+            "publishedAt": "2020-04-04T14:48:37Z",
+            "content": "Welcome back to This Week in Apps, the Extra Crunch series that recaps the latest OS news, the applications they support and the money that flows through it all.\r\nThe app industry saw a record\u00a0204 billion downloads\u00a0and $120 billion in consumer spending in 201\u2026 [+1327 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Spain 'close to passing peak' as deaths fall again",
+            "description": "Prime Minister Pedro S\u00e1nchez has extended lockdown measures in the country until 25 April.",
+            "url": "http://www.bbc.co.uk/news/world-europe-52166804",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p088kbj6.jpg",
+            "publishedAt": "2020-04-04T14:43:51Z",
+            "content": "Media captionInside the ICU in one of Spain's biggest hospitals\r\nSpanish Prime Minister Pedro S\u00e1nchez says the country is \"close to passing the peak of infections\" as the number of coronavirus deaths fell for the second day in a row.\r\nMr S\u00e1nchez also extended\u2026 [+3935 chars]"
+        },
+        {
+            "source": {
+                "id": "cnbc",
+                "name": "CNBC"
+            },
+            "author": "Yun Li",
+            "title": "Bank of America says the lows for stock prices and corporate bonds are in",
+            "description": "Signs are emerging that the bulk of the selling in stock and corporate bonds is behind us, according to Bank of America's chief investment strategist Michael Hartnett.",
+            "url": "https://www.cnbc.com/2020/04/04/bank-of-america-says-the-lows-for-stock-prices-and-corporate-bonds-are-in.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106474888-1586005878313gettyimages-1213620311.jpeg?v=1586005954",
+            "publishedAt": "2020-04-04T14:42:50Z",
+            "content": "While the direction of the market still hinges on when the coronavirus outbreak is slowed, some signs are emerging that the bulk of the selling in stock and corporate bonds is behind us, according to Bank of America's Chief Investment Strategist\u00a0Michael Hartn\u2026 [+2210 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "",
+            "title": "Jared Kushner's Role In Coronavirus Response Draws Scrutiny, Criticism",
+            "description": "The president's son-in-law and senior adviser has emerged as a key figure in the Trump administration's response to the outbreak.",
+            "url": "https://www.npr.org/2020/04/04/826922646/jared-kushners-role-in-coronavirus-response-draws-scrutiny-criticism",
+            "urlToImage": "https://media.npr.org/assets/img/2020/04/03/ap_20093834051602_wide-083a5c5adcf057482e2d04de76bb2126c52f657f.jpg?s=1400",
+            "publishedAt": "2020-04-04T14:38:40+00:00",
+            "content": "White House adviser Jared Kushner listens as President Trump discusses the coronavirus.\r\nAlex Brandon/AP\r\nJared Kushner, President Trump's son-in-law and senior adviser, criticized governors Thursday, saying they don't have a handle on their own supplies of m\u2026 [+5408 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Fox News",
+            "title": "Schiff proposes coronavirus commission to probe pandemic response",
+            "description": "House Intelligence Committee Chairman Adam Schiff proposes the establishment of a bipartisan commission to investigate the response to the coronavirus pandemic by the Trump administration.",
+            "url": "https://video.foxnews.com/v/6147075784001/",
+            "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/dfb86380-056b-4473-ab23-8c59ca431b49/cf6f5c5d-1807-4aa2-ae5b-595e97e6b69f/1280x720/match/image.jpg",
+            "publishedAt": "2020-04-04T14:37:49.3813226Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Sophie Lewis",
+            "title": "Pink is donating $1 million to fight pandemic after revealing she tested positive for coronavirus",
+            "description": "The singer revealed on social media that she tested positive several weeks ago.",
+            "url": "https://www.cbsnews.com/news/coronavirus-pink-tested-positive-donating-1-million-pandemic/",
+            "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2020/04/04/76f012b3-733e-4673-91ea-b648d2d5b323/thumbnail/1200x630/6a1ebfa7bb787fdf9d5b084e74ac4fe9/gettyimages-1179670779.jpg",
+            "publishedAt": "2020-04-04T14:36:06+00:00",
+            "content": "Pink revealed on social media Friday night that her family has been quarantined for weeks after she tested positive for coronavirus. The superstar singer said she and her 3-year-old son Jameson were already self-isolating when they started showing symptoms se\u2026 [+3589 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-in",
+                "name": "Google News (India)"
+            },
+            "author": "PTI",
+            "title": "445 Coronavirus Cases in Delhi, May Rise Further, Says CM Kejriwal",
+            "description": "There were 40 cases of local transmission while a majority of other patients either had foreign travel history or they were recently evacuated from Nizamuddin Markaz.",
+            "url": "https://www.news18.com/news/india/445-coronavirus-cases-in-delhi-may-rise-further-says-cm-kejriwal-2564657.html",
+            "urlToImage": "https://images.news18.com/ibnlive/uploads/2020/04/Nizamuddin-Crisis-Tablighi-Quarantines-Attendees-F.jpg",
+            "publishedAt": "2020-04-04T14:34:15+00:00",
+            "content": "New Delhi: The number of coronavirus cases stood at 445 in Delhi but the situation was under control and there was no community transmission, Delhi Chief Minister Arvind Kejriwal said on Saturday.\r\nThere were 40 cases of local transmission while a majority of\u2026 [+870 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Scottie Andrew, CNN\nIllustrations: Leah Abucayan, CNN",
+            "title": "How to make your own face mask",
+            "description": "Here are step-by-step instructions on how to make your own mask, based on guidance from the Vanderbilt University Medical Center and Froedtert & the Medical College of Wisconsin. They're reusable and washable, and they should be worn while you continue to obe\u2026",
+            "url": "https://www.cnn.com/2020/04/04/health/how-to-make-your-own-mask-wellness-trnd/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/200403172456-coronavirus-mask-making-topimage-super-tease.jpg",
+            "publishedAt": "2020-04-04T14:34:12+00:00",
+            "content": "By Scottie Andrew, CNNIllustrations: Leah Abucayan, CNN\r\nUpdated 10:23 AM ET, Sat April 4, 2020\r\nChat with us in Facebook Messenger. Find out what's happening in the world as it unfolds.\r\n(CNN)There's one thing you should know before diving into the conversat\u2026 [+5285 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Editorial",
+            "title": "Top U.S. watchdog vows 'aggressive' oversight of Trump administration after intel firing",
+            "description": "The top U.S. federal watchdog vowed on Saturday to continue to conduct \"aggressive\" independent oversight of government agencies, after President Donald Trump fired the inspector general of the U.S. intelligence community late Friday night.",
+            "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/cQq3GvUrtoY/top-u-s-watchdog-vows-aggressive-oversight-of-trump-administration-after-intel-firing-idUSKBN21M0KK",
+            "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20200404&t=2&i=1512375867&w=1200&r=LYNXMPEG330EB",
+            "publishedAt": "2020-04-04T14:34:04Z",
+            "content": "WASHINGTON (Reuters) - The top U.S. federal watchdog vowed on Saturday to continue to conduct \u201caggressive\u201d independent oversight of government agencies, after President Donald Trump fired the inspector general of the U.S. intelligence community late Friday ni\u2026 [+3131 chars]"
+        },
+        {
+            "source": {
+                "id": "cnbc",
+                "name": "CNBC"
+            },
+            "author": "Fred Imbert",
+            "title": "Wall Street adjusts to working at home: Lost screen real estate, Citi's new 'world headquarters'",
+            "description": "CNBC spoke with several Wall Street players to see how they are adjusting to the new reality of working from home.",
+            "url": "https://www.cnbc.com/2020/04/04/wall-street-adjusts-to-working-at-home-lost-screen-real-estate-citis-new-world-headquarters.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/106454360-15847308649482020-03-19t212642z_1866910773_hp1eg3j1nkike_rtrmadp_3_usa-stocks.jpg?v=1584991538",
+            "publishedAt": "2020-04-04T14:34:03Z",
+            "content": "A man cleans up on the trading floor, following traders testing positive for Coronavirus disease (COVID-19), at the New York Stock Exchange (NYSE) in New York, U.S., March 19, 2020.\r\nThe coronavirus pandemic has roiled capital markets, but it has also led to \u2026 [+6010 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "Watch live: New York Governor Andrew Cuomo gives coronavirus update",
+            "description": "The governor made a plea Friday for resources from across the country to be deployed to New York, saying it is \"in crisis.\"",
+            "url": "https://www.cbsnews.com/news/andrew-cuomo-new-york-governor-coronavirus-update-briefing-watch-live-stream-today-2020-04-04/",
+            "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2020/04/03/23ef26cc-b328-4d1e-a06e-5f0b14cb856a/thumbnail/1200x630g2/857db6006496e09411f8cc90365ad6d7/cuomofriday.png",
+            "publishedAt": "2020-04-04T14:29:27+00:00",
+            "content": "New York Governor Andrew Cuomo is giving an update Saturday on the state's response to the coronavirus pandemic, which has killed more than 2,900 people in the state. There have now been more than 102,000 confirmed cases statewide \u2013 more than half of them in \u2026 [+502 chars]"
+        },
+        {
+            "source": {
+                "id": "vice-news",
+                "name": "Vice News"
+            },
+            "author": "Cait Bladt,Neda Toloui-Semnani",
+            "title": "Why Grief Will Help Us Survive Coronavirus",
+            "description": "\u201cAnxiety is something that's talked a lot about, but I don't think that grief is talked a lot.\u201d",
+            "url": "https://www.vice.com/en_us/article/k7ejee/why-grief-will-help-us-survive-coronavirus",
+            "urlToImage": "https://video-images.vice.com/test-uploads/articles/5e84f4356b0e12009d889f96/lede/1585774676982-goodgrief-clean2.jpeg?crop=1xw:1xh;center,center&resize=1200:*",
+            "publishedAt": "2020-04-04T14:28:00Z",
+            "content": "Right now, the world is trying to make sense of a tragedy that makes no sense: A microscopic particle has traveled across borders and oceans to tank economies, push millions out of work and school, and kill tens of thousands.\r\nWhen a loved one dies, people kn\u2026 [+1966 chars]"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Owen S. Good",
+            "title": "ESA sets dates for \u2018reimagined\u2019 E3 2021",
+            "description": "The ESA has advised partners and members that E3 2021 will be June 15-17, 2021, Gamesindustry.biz reported on April 3.",
+            "url": "https://www.polygon.com/2020/4/4/21208000/e3-2021-dates-e3-2020-canceled-ign-summer-of-gaming",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/fEvMu4JLXOV3cqk-RFxGwT9qPU4=/0x515:7232x4301/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19871046/1155749733.jpg.jpg",
+            "publishedAt": "2020-04-04T14:26:26Z",
+            "content": "E3 2021 will be June 15-17, 2021, the Entertainment Software Association has told partners, according to GamesIndustry.biz. The organizer is said to be working on a reimagined event when it returns next year.\r\nThe ESA canceled E3 2020 in early March as the no\u2026 [+965 chars]"
+        },
+        {
+            "source": {
+                "id": "vice-news",
+                "name": "Vice News"
+            },
+            "author": "Alex Lubben",
+            "title": "Trump Just Fired The Man Who Kicked Off His Impeachment Investigation",
+            "description": "Michael Atkinson was the intelligence community's top government watchdog. Now he's out of a job.",
+            "url": "https://www.vice.com/en_us/article/bvg4yz/trump-just-fired-the-man-who-kicked-off-his-impeachment-investigation",
+            "urlToImage": "https://video-images.vice.com/test-uploads/articles/5e8896966b0e12009d88b9eb/lede/1586009944142-AP_20094821044000.jpeg?crop=1xw:0.8438438438438438xh;center,center&resize=1200:*",
+            "publishedAt": "2020-04-04T14:25:48Z",
+            "content": "President Donald Trump is firing the intelligence communitys top government watchdog, who just happens to be the man who kicked off Trump's impeachment by alerting Congress about his call with the Ukrainian president.\r\n Michael Atkinson, the intelligence comm\u2026 [+2437 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": "BBC Sport",
+            "title": "Watch: Fifa World Cup 2018 Rewind - France v Argentina",
+            "description": "Relive one of the most thrilling matches from the 2018 World Cup in Russia as France took on Argentina for a place in the quarter-finals.",
+            "url": "http://www.bbc.co.uk/sport/live/football/52124514",
+            "urlToImage": "https:////m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.9.1/images/bbc-sport-logo.png",
+            "publishedAt": "2020-04-04T14:23:01.3884565Z",
+            "content": "Franceboss Didier Deschamps reacts to last Tuesday's goalless draw with Denmark by making six changes to that weakened side.\r\nGoalkeeper Hugo Lloris, defenders Benjamin Pavard and Samuel Umtiti, midfielders Paul Pogba and Blaise Matuidi, as well as 19-year-ol\u2026 [+1181 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Fox News",
+            "title": "Christopher Cross tests positive for coronavirus, calls it 'the worst illness I've ever had'",
+            "description": "Christopher Cross is the latest celebrity to be diagnosed with the coronavirus, the singer-songwriter has revealed.",
+            "url": "https://www.foxnews.com/entertainment/christopher-cross-tests-positive-coronavirus-worst-illness",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/04/chris-cross.jpg",
+            "publishedAt": "2020-04-04T14:22:44.5382954Z",
+            "content": "Get all the latest news on coronavirus and more delivered daily to your inbox.\u00a0\u00a0Sign up here.\u00a0\u00a0\r\nChristopher Cross is the latest celebrity to be diagnosed with the coronavirus, the singer-songwriter has revealed.\r\nThe 68-year-old award-winning singer took to \u2026 [+1764 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-sport",
+                "name": "BBC Sport"
+            },
+            "author": "BBC Sport",
+            "title": "Liverpool place some non-playing staff on furlough",
+            "description": "Liverpool place some of their staff on furlough, in response to the ongoing suspension of Premier League because of the coronavirus crisis.",
+            "url": "http://www.bbc.co.uk/sport/football/52165826",
+            "urlToImage": "https://ichef.bbci.co.uk/onesport/cps/624/cpsprodpb/8EE5/production/_111618563_anfield.jpg",
+            "publishedAt": "2020-04-04T14:18:47Z",
+            "content": "The Premier League has been suspended indefinitely with Liverpool clear at the top\r\nPremier League leaders Liverpool are the latest top-flight club to place some non-playing staff on temporary leave.\r\nStaff affected will receive 80% of their salary through th\u2026 [+3162 chars]"
+        },
+        {
+            "source": {
+                "id": "google-news-uk",
+                "name": "Google News (UK)"
+            },
+            "author": "Bradley Jolly",
+            "title": "Boris Johnson 'barricaded' in at No 10 as coronavirus hit Prime Minister 'hard'",
+            "description": "Boris Johnson, who tested positive for coronavirus (Covid-19) last month, remains in self-isolation at Number 10 Downing Street but appeared at the famous door to clap for the NHS on Thursday",
+            "url": "https://www.mirror.co.uk/news/politics/boris-johnson-barricaded-no-10-21812394",
+            "urlToImage": "https://i2-prod.mirror.co.uk/incoming/article21807571.ece/ALTERNATES/s1200/1_vlcsnap-2020-04-03-12h51m32s043.png",
+            "publishedAt": "2020-04-04T14:15:30+00:00",
+            "content": "Boris Johnson has been barricaded into Number 10 Downing Street as he remains in self-isolation to help prevent the spread of the coronavirus.\r\nThe Prime Minister tested positive for the virus on March 27, some eight days ago, but remains isolated amid report\u2026 [+1729 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Tal Axelrod",
+            "title": "Biden calls on Trump to appoint coronavirus 'supply commander' | TheHill",
+            "description": "Former Vice President Joe Biden is calling on President Trump to appoint a \"supply commander\" to...",
+            "url": "http://thehill.com/homenews/campaign/491150-biden-calls-on-trump-to-appoint-coronavirus-supply-commander-unveils-plan",
+            "urlToImage": "https://thehill.com/sites/default/files/bidenjoe_trumpdonald_040420getty.jpg",
+            "publishedAt": "2020-04-04T14:12:49Z",
+            "content": "Former Vice President Joe BidenJoe BidenThe Hill's Campaign Report: Biden struggles to stay in the spotlightIs Texas learning to love ObamaCare? Romney warns Trump: Don't interfere\u00a0with coronavirus relief oversightMORE is calling on President TrumpDonald John\u2026 [+4007 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "Saturday Sessions: Adeline performs \"Middle\"",
+            "description": "French-Caribbean singer Adeline was boring in Paris before moving to New York after high school to pursue her dream of becoming a performer. She fronted the band \u201cEscort\u201d before releasing her critically acclaimed self-titled debut album. With a new EP coming \u2026",
+            "url": "https://www.cbsnews.com/video/saturday-sessions-adeline-performs-middle/",
+            "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2020/04/04/3b94d8ce-6fc2-4149-beb3-19b8af0fce5a/thumbnail/1200x630/c278a186399a446b28f5989f486628f3/middle-satmosessions-new-2052541-640x360.jpg",
+            "publishedAt": "2020-04-04T14:12:24+00:00",
+            "content": "Watch CBSN Live\r\nCopyright \u00a9 2020 CBS Interactive Inc. All rights reserved."
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "The people we've lost to coronavirus",
+            "description": "Here are just some of the coronavirus pandemic's many victims: who they were, and the lives they touched.",
+            "url": "https://www.cbsnews.com/live-news/coronavirus-deaths-global-pandemic-lives-we-lost/",
+            "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/04/03/7c52b643-84a5-48a1-a226-974f598dec0f/thumbnail/1200x630/8e6c41e24340e2313b9f8d56ac273b76/1585933991386-1.png",
+            "publishedAt": "2020-04-04T14:09:28+00:00",
+            "content": "April 4, 2020 / 10:09 AM\r\n / CBS News\r\nA country music star, a college professor, an award-winning playwright, and an ICU nurse: Here are just some of the victims who have been lost to the global coronavirus pandemic.\r\nManu Dibango, saxophonist\r\nThe influenti\u2026 [+12194 chars]"
+        },
+        {
+            "source": {
+                "id": "the-irish-times",
+                "name": "The Irish Times"
+            },
+            "author": "The Irish Times",
+            "title": "LIVE Coronavirus: \u20ac72m fund to help nursing homes fight virus",
+            "description": "Harris denies Government has been slow dealing with clusters in nursing homes",
+            "url": "https://www.irishtimes.com/news/ireland/irish-news/coronavirus-72m-fund-to-help-nursing-homes-fight-virus-1.4221097",
+            "urlToImage": "https://www.irishtimes.com/image-creator/?id=1.4221175&origw=3464",
+            "publishedAt": "2020-04-04T14:08:19.3619554Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Hannah Loewentheil",
+            "title": "21 Easy 5-Ingredient Dinners You Will Actually Want To Eat",
+            "description": "You don't need tons of groceries to make a delicious meal.",
+            "url": "https://www.buzzfeed.com/hannahloewentheil/easy-five-ingredient-dinner-recipes",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/2/18/campaign_images/fde3e1c323d4/21-easy-5-ingredient-dinners-you-will-actually-wa-2-1076-1585851861-10_dblbig.jpg",
+            "publishedAt": "2020-04-04T14:08:08.4204624Z",
+            "content": "The Seasoned Mom / Via theseasonedmom.comSalmon, store-bought pesto, onion, tomato, and cherry tomatoes get cooked in tin foil so that the fish is perfectly tender and flaky. If you have extra ingredients in your fridge, consider adding capers, olives, sun-dr\u2026 [+82 chars]"
+        },
+        {
+            "source": {
+                "id": "ign",
+                "name": "IGN"
+            },
+            "author": null,
+            "title": "The Last of Us 2, Iron Man VR Delay Reactions - Beyond Episode 638 - IGN",
+            "description": "IGN's weekly PlayStation show gathers for a special episode to react to the major news that The Last of Us Part 2 and Marvel's Iron Man VR have been delayed indefinitely. Jonathon Dornbush and Brian Altano discuss what this means for both games, how it could \u2026",
+            "url": "https://www.ign.com/videos/the-last-of-us-2-iron-man-vr-delay-reactions-beyond-episode-638",
+            "urlToImage": "https://assets1.ignimgs.com/thumbs/userUploaded/2020/4/3/36190303beyondtlou2ironmanvrdelaysblogroll-1585961992764.jpg?width=1280",
+            "publishedAt": "2020-04-04T14:08:00.3937634Z",
+            "content": "How was your video watching experience?"
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Jeff Zeleny, Senior Washington Correspondent",
+            "title": "Why these 8 Republican governors are holding out on statewide stay-at-home orders",
+            "description": "Just eight US governors have decided against issuing statewide directives urging their residents to stay at home as the outbreak of the coronavirus escalates and spreads across the country, the last holdouts in the nation.",
+            "url": "https://www.cnn.com/2020/04/04/politics/republican-governors-stay-at-home-orders-coronavirus/index.html",
+            "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/180626221949-03-mcmaster-victory-super-tease.jpg",
+            "publishedAt": "2020-04-04T14:04:08+00:00",
+            "content": "Just eight US governors have decided against issuing statewide directives urging their residents to stay at home as the outbreak of the coronavirus escalates and spreads across the country, the last holdouts in the nation."
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Jacob Kastrenakes",
+            "title": "New trailers: Snowpiercer, Normal People, The Innocence Files, and more",
+            "description": "Watch this week\u2019s best new trailers from Netflix, Hulu, Quibi, Apple TV Plus, Amazon, and more, including a teaser for TNT\u2019s new adaptation of Snowpiercer.",
+            "url": "https://www.theverge.com/2020/4/4/21207372/new-trailers-snowpiercer-normal-people-innocence-files-quibi-more",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/37r0o2SpsRnMnIO9e3qq6zv_Bdo=/0x10:3840x2020/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19870285/dffb6d40_72c2_11ea_8dd9_0af231b9590b_R.jpg",
+            "publishedAt": "2020-04-04T14:00:00Z",
+            "content": "It seems Quibi is almost here\r\nPhoto: Netflix\r\nOne of the few small upsides to the current global mess is that a bunch of movies are hitting streaming services and rental platforms earlier than they otherwise would have: Emma., Onward, and Birds of Prey are o\u2026 [+3254 chars]"
+        },
+        {
+            "source": {
+                "id": "the-verge",
+                "name": "The Verge"
+            },
+            "author": "Cameron Faulkner",
+            "title": "Save on a Sling TV subscription and discounted gadgets this weekend",
+            "description": "This weekend\u2019s best deals include a free, two-week subscription to Sling TV. No credit card is necessary to sign up. You can also save on 4K HDR TVs, Samsung\u2019s Galaxy S20, and a trove of games with Humble Bundle.",
+            "url": "https://www.theverge.com/good-deals/2020/4/4/21206886/sling-tv-blue-tv-streaming-discount-beats-noise-canceling-headphones-wireless-deal",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/Z15T2o9b-owImXUKSn0CaiqxNj8=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/2913888/sling10_2040.0.jpg",
+            "publishedAt": "2020-04-04T14:00:00Z",
+            "content": "The weeks best deals\r\nThis story is part of a group of stories called \r\nOnly the best deals on Verge-approved gadgets get the Verge Deals stamp of approval, so if you're looking for a deal on your next gadget or gift from major retailers like Amazon, Walmart,\u2026 [+3084 chars]"
+        },
+        {
+            "source": {
+                "id": "talksport",
+                "name": "TalkSport"
+            },
+            "author": "Sean O'Brien",
+            "title": "\u2018Tottenham fans will be EMBARRASSED\u2019 \u2013 Tony Cascarino hits out at Spurs and PFA for response to coronavirus cr",
+            "description": "",
+            "url": "https://talksport.com/football/691257/tottenham-fans-embarrassed-tony-cascarino-spurs-pfa-coronavirus-crisis/",
+            "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2020/04/TALKSPORT-levy-taylor.jpg?strip=all&quality=100&w=750&h=500&crop=1",
+            "publishedAt": "2020-04-04T13:57:53Z",
+            "content": "Tony Cascarino believes Tottenham fans will be left embarrassed by their club\u2019s response to the coronavirus crisis.\r\nEarlier this week, Spurs announced the decision to place 550 members of staff on furlough leave while players and executives continue to be pa\u2026 [+2317 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Caroline Linton",
+            "title": "Trump fires intelligence community watchdog who handled complaint that led to impeachment",
+            "description": "President Trump wrote it is \"vital\" that he have the \"fullest confidence\" in the Inspector General, and said \"that is no longer the case.\"",
+            "url": "https://www.cbsnews.com/news/trump-fires-intelligence-community-watchdog-who-handled-complaint-that-led-to-impeachment/",
+            "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2020/04/03/e8be54fb-7958-42d1-b3c3-ac696beaa95d/thumbnail/1200x630/2845db6460f9d5799fbf904a9d68f595/ap-20094795287322.jpg",
+            "publishedAt": "2020-04-04T13:56:00+00:00",
+            "content": "President Trump has fired Intelligence Community Inspector General Michael Atkinson, according to a letter from Mr. Trump obtained by CBS News. Atkinson handled the complaint from a whistleblower that led to Mr. Trump's impeachment.\r\nThe letter from Mr. Trump\u2026 [+4749 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Hayley Tillett",
+            "title": "16 Hilarious Tumblr Posts About Quarantining That Hit Way Too Close To Home",
+            "description": "\"What should I wear to the living room today?\"",
+            "url": "https://www.buzzfeed.com/hayleyrochelletillett/tumblr-funny-quarantine-posts",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-03/30/19/enhanced/6a8fc362a4e4/original-6226-1585597034-14.jpg?crop=1250:654;0,0",
+            "publishedAt": "2020-04-04T13:53:06.734676Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "google-news",
+                "name": "Google News"
+            },
+            "author": "Michael Rosenwald, Kayla Epstein",
+            "title": "The Kennedys have endured tragedy and untimely deaths. Now it has happened again.",
+            "description": "The Kennedy family said Friday night that the search for Maeve Kennedy Townsend McKean, 40, and her eight-year-old son Gideon had turned into a recovery mission.",
+            "url": "https://www.washingtonpost.com/history/2020/04/04/kennedy-family-deaths-curse-history/",
+            "urlToImage": "https://www.washingtonpost.com/resizer/_FOVvjuZ39qW29GccRVrFfaJnLw=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/64A3CWVYBYI6PPUU7K5Q6HU77M.jpg",
+            "publishedAt": "2020-04-04T13:51:28+00:00",
+            "content": "Tragedy has struck again.\r\nThe Kennedy family said Friday night that the search for Maeve Kennedy Townsend McKean, 40, and her 8-year-old son Gideon had turned into a recovery mission. McKeans husband, David, said in a grieving Facebook post that It is clear \u2026 [+4672 chars]"
+        },
+        {
+            "source": {
+                "id": "breitbart-news",
+                "name": "Breitbart News"
+            },
+            "author": "Jack Montgomery",
+            "title": "'Allahu Akbar' Migrant Knifeman Kills Two, Wounds Seven in France",
+            "description": "A knife-wielding Sudanese migrant shouting \"Allahu Akbar!\" has stabbed two people to death and wounded \"at least\" seven others in France.",
+            "url": "http://www.breitbart.com/europe/2020/04/04/allahu-akbar-migrant-knifeman-kills-two-wounds-seven-in-france/",
+            "urlToImage": "https://media.breitbart.com/media/2020/04/France-police-640x335.png",
+            "publishedAt": "2020-04-04T13:42:23Z",
+            "content": "A knife-wielding Sudanese migrant shouting \u201cAllahu Akbar!\u201d has stabbed two people to death and wounded \u201cat least\u201d seven others in France.\r\nThe suspected killer, said to be an asylum seeker in his thirties, was initially reported as having struck outside a bak\u2026 [+1822 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "HOPE YEN and CALVIN WOODWARD",
+            "title": "AP FACT CHECK: Trump, 'wartime' pandemic leader or 'backup'?",
+            "description": "WASHINGTON (AP) \u2014 Is he a wartime president or a backup point man? President Donald Trump seems to go back and forth on that, or both ways at once, in responding to the coronavirus pandemic that...",
+            "url": "https://apnews.com/a64cf7fd5095d4d3b002dc4830e32119",
+            "urlToImage": "",
+            "publishedAt": "2020-04-04T13:41:40Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "usa-today",
+                "name": "USA Today"
+            },
+            "author": null,
+            "title": "Search called off for Robert F. Kennedy's granddaughter and her son; both presumed dead after canoeing accident",
+            "description": "The U.S. Coast Guard announced the search for\u00a0RFK granddaughter Maeve Kennedy Townsend McKean and her son Gideon, would be suspended.",
+            "url": "https://www.usatoday.com/story/entertainment/celebrities/2020/04/03/kennedy-tragedy-maeve-kennedy-townsend-mckean-son-missing-boaters/2941455001/",
+            "urlToImage": "https://www.gannett-cdn.com/presto/2020/04/03/USAT/841f18b5-88f9-464f-ae6f-06eb47e151fc-GettyImages-1193630199.jpg?crop=2054,1156,x0,y307&width=1600&height=800&fit=bounds",
+            "publishedAt": "2020-04-04T13:39:57+00:00",
+            "content": "Maryland Gov. Larry Hogan says that rescuers are searching for two missing boaters - the daughter and grandson of former Maryland Lt. Gov. Kathleen Kennedy Townsend - after their canoe was found in Chesapeake Bay. (April 3)\r\nAP Domestic\r\nA member of the Kenne\u2026 [+7141 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hindu",
+                "name": "The Hindu"
+            },
+            "author": "PTI",
+            "title": "COVID-19 testing, treatment free for Ayushman Bharat beneficiaries at private labs, empanelled hospitals",
+            "description": "The NHA said this will strengthen the country\u2019s response to the novel coronavirus pandemic.",
+            "url": "https://www.thehindu.com/news/national/covid-19-testing-treatment-free-for-ayushman-bharat-beneficiaries-at-private-labs-empanelled-hospitals/article31258146.ece",
+            "urlToImage": "https://www.thehindu.com/news/national/f3x76v/article31258145.ece/ALTERNATES/LANDSCAPE_615/CORONAVIRUS-TEST",
+            "publishedAt": "2020-04-04T13:38:31Z",
+            "content": "Testing and treatment for COVID-19 will be free of cost for Ayushman Bharat beneficiaries at private laboratories and empanelled hospitals, the National Health Authority (NHA) said on Saturday. \r\nAlso read: Coronavirus | Revised testing norms likely as number\u2026 [+2639 chars]"
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Fox News",
+            "title": "Man's tiny picnic table for squirrels goes viral, prompts people in quarantine to build their own",
+            "description": "Just because we\u2019re all at home isolating, doesn\u2019t mean nature is.",
+            "url": "https://www.foxnews.com/lifestyle/mans-squirrel-table-goes-viral-people-build",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/04/iStock-1169628168.jpg",
+            "publishedAt": "2020-04-04T13:38:12.2377288Z",
+            "content": "Get all the latest news on coronavirus and more delivered daily to your inbox. Sign up here.\r\nJust because we\u2019re all at home isolating, doesn\u2019t mean nature is.\r\nA man built a tiny picnic table for the squirrels in his neighborhood to eat on -- an idea that ha\u2026 [+1199 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Deena Beasley",
+            "title": "Why U.S. hospitals see promise in plasma from new coronavirus patients",
+            "description": "U.S. hospitals desperate to help very sick patients with COVID-19, the highly contagious respiratory disease caused by the new coronavirus,\u00a0are trying a treatment first used in the 1890s that relies on blood plasma donated by recovered patients.",
+            "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/3VR9Wi6ca0g/why-u-s-hospitals-see-promise-in-plasma-from-new-coronavirus-patients-idUSKBN21M0E3",
+            "urlToImage": "https://s2.reutersmedia.net/resources/r/?m=02&d=20200404&t=2&i=1512360633&w=1200&r=LYNXMPEG330DI",
+            "publishedAt": "2020-04-04T13:36:15Z",
+            "content": "(Reuters) - U.S. hospitals desperate to help very sick patients with COVID-19, the highly contagious respiratory disease caused by the new coronavirus,\u00a0are trying a treatment first used in the 1890s that relies on blood plasma donated by recovered patients. \r\u2026 [+3914 chars]"
+        },
+        {
+            "source": {
+                "id": "breitbart-news",
+                "name": "Breitbart News"
+            },
+            "author": "Hannah Bleau",
+            "title": "Elizabeth Warren Demands Racial Data of those with Coronavirus",
+            "description": "Sen. Elizabeth Warren (D-MA) is demanding the racial data of those contracting the novel coronavirus, contending that it is \"critical.\"",
+            "url": "http://www.breitbart.com/politics/2020/04/04/elizabeth-warren-demands-critical-racial-data-those-coronavirus/",
+            "urlToImage": "https://media.breitbart.com/media/2020/04/woman-hood-coronavirus-mask-ap-640x335.jpg",
+            "publishedAt": "2020-04-04T13:32:03Z",
+            "content": "Sen. Elizabeth Warren (D-MA) is demanding the racial data of those contracting the novel coronavirus, contending that it is \u201ccritical to ensuring an equitable and just response to this crisis across the board.\u201d\r\nWhile the virus appears to be no respecter of p\u2026 [+4426 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "California launches initiative to place homeless in hotel rooms",
+            "description": "The \"Project Roomkey\" initiative is the first of its kind in the nation.",
+            "url": "https://www.cbsnews.com/news/california-launches-project-roomkey-initiative-to-place-homeless-in-hotel-rooms/",
+            "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2020/04/04/7464517e-1bb6-4ddb-8626-0d161970a9be/thumbnail/1200x630/88805831b5ba79954afc55edb50e683d/gettyimages-1207672093.jpg",
+            "publishedAt": "2020-04-04T13:30:57+00:00",
+            "content": "Sacramento \u2013 California Governor Gavin Newsom announced an initiative Friday to place homeless people in hotel and motel rooms around the state in partnership with the Federal Emergency Management Agency (FEMA). FEMA and California counties have identified 6,\u2026 [+2337 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "CLAUDIA LAUER and JESSICA GRESKO",
+            "title": "Where will the bodies go? Morgues plan as virus grows",
+            "description": "PHILADELPHIA (AP) \u2014 There are the new dead. And then there are the bodies waiting in overcrowded mortuaries to be buried as cities struggle to meet demand and families wrestle with rules on social...",
+            "url": "https://apnews.com/75e97a636f40bcd98f0827dfaa09e3ff",
+            "urlToImage": "",
+            "publishedAt": "2020-04-04T13:25:17Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Stephanie McNeal",
+            "title": "Influencers Are Sharing Bogus QAnon Conspiracy Theories About Coronavirus",
+            "description": "If 2020 wasn't weird enough, let's throw radicalized influencers into the mix.",
+            "url": "https://www.buzzfeednews.com/article/stephaniemcneal/coronavirus-lifestyle-influencers-sharing-conspiracy-qanon",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/4/13/campaign_images/dade895836f3/lifestyle-influencers-are-now-sharing-some-bogus--2-2878-1586006304-3_dblbig.jpg",
+            "publishedAt": "2020-04-04T13:23:10.3198046Z",
+            "content": "The journalists at BuzzFeed News are proud to bring you trustworthy and relevant reporting about the coronavirus. To help keep this news free,become a memberand sign up for our newsletter,Outbreak Today.\r\nAs if things aren't bad enough right now, some lifesty\u2026 [+6249 chars]"
+        },
+        {
+            "source": {
+                "id": "news24",
+                "name": "News24"
+            },
+            "author": null,
+            "title": "Three Gauteng traffic cops arrested for allegedly demanding bribe",
+            "description": "The three officers were arrested at the house where they were allegedly collecting the remainder of the bribe money they had demanded. They are expected to be served with suspension letters, pending an investigation into the case.",
+            "url": "https://www.news24.com/SouthAfrica/News/three-gauteng-traffic-cops-arrested-for-allegedly-demanding-bribe-20200404",
+            "urlToImage": "http://cdn.24.co.za/files/Cms/General/d/9460/fd11b6e4f0034405803e4be616f84069.jpg",
+            "publishedAt": "2020-04-04T13:21:20+00:00",
+            "content": "Three Gauteng traffic police officers were arrested on Friday in Midrand for allegedly soliciting and receiving a bribe. \r\nIt is alleged the South African Police Service (SAPS) in Midrand got a tip-off that the officers had gone to a house and demanded a brib\u2026 [+591 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "Saturday Sessions: Adeline performs \"Twilight\"",
+            "description": "French-Caribbean singer Adeline was boring in Paris before moving to New York after high school to pursue her dream of becoming a performer. She fronted the band \u201cEscort\u201d before releasing her critically acclaimed self-titled debut album. With a new EP coming \u2026",
+            "url": "https://www.cbsnews.com/video/saturday-sessions-adeline-performs-twilight/",
+            "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/04/04/7993ea65-c098-44f8-914f-6afb7c900703/thumbnail/1200x630/600bb7daa32732ee872c652f1e7d46a3/twilight-satmosessions-new-2052540-640x360.jpg",
+            "publishedAt": "2020-04-04T13:20:59+00:00",
+            "content": "Watch CBSN Live\r\nCopyright \u00a9 2020 CBS Interactive Inc. All rights reserved."
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "CBS News",
+            "title": "Saturday Sessions: Adeline performs \"Come & Go\"",
+            "description": "French-Caribbean singer Adeline was boring in Paris before moving to New York after high school to pursue her dream of becoming a performer. She fronted the band \u201cEscort\u201d before releasing her critically acclaimed self-titled debut album. With a new EP coming \u2026",
+            "url": "https://www.cbsnews.com/video/saturday-sessions-adeline-performs-come-go/",
+            "urlToImage": "https://cbsnews2.cbsistatic.com/hub/i/r/2020/04/04/48487444-2cd8-490e-bd01-99fd7ad398c7/thumbnail/1200x630/e8c503deeeac108817a737d0d00c8f1b/caught-satmosessions-2052534-640x360.jpg",
+            "publishedAt": "2020-04-04T13:18:57+00:00",
+            "content": "Watch CBSN Live\r\nCopyright \u00a9 2020 CBS Interactive Inc. All rights reserved."
+        },
+        {
+            "source": {
+                "id": "nfl-news",
+                "name": "NFL News"
+            },
+            "author": "Jeremy Bergman",
+            "title": "Wolfe: Ravens can have NFL's 'best defensive line'",
+            "description": "The Ravens have fixated on improving their defensive line this offseason. New DE Derek Wolfe thinks Baltimore's remade DL can be the league's best.",
+            "url": "http://www.nfl.com/news/story/0ap3000001108359/article/wolfe-ravens-can-have-nfls-best-defensive-line",
+            "urlToImage": "http://static.nfl.com/static/content/public/photo/2020/04/04/0ap3000001108358_thumbnail_200_150.jpg",
+            "publishedAt": "2020-04-04T13:18:39Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "ars-technica",
+                "name": "Ars Technica"
+            },
+            "author": null,
+            "title": "The party goes on in massive online worlds",
+            "description": "MMORPGs aren't a perfect substitute for real-life socializing\u2014but close enough for now.",
+            "url": "https://www.wired.com/story/mmorpgs-social-distancing-final-fantasy-wow-classic/",
+            "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2013/09/ffxiv3-640x215.png",
+            "publishedAt": "2020-04-04T13:15:59+00:00",
+            "content": "Final Fantasy XIV online.\"/&gt;\r\n You don't have to be so socially distant when playing Final Fantasy XIV online.\r\n7 with 6 posters participating\r\nMy friends and I were taking a pit stop after an aimless drive when we heard a stranger loudly invite anyone wit\u2026 [+7410 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Editorial",
+            "title": "Spain to extend state of emergency to April 26, rise in infections slows",
+            "description": "Spanish Prime Minister Pedro Sanchez will ask parliament to extend lockdown measures by 15 more days until April 26 as the daily pace of new coronavirus infections and deaths slowed again on Saturday in one of the world's most hard-hit countries.",
+            "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/93BncVdsp_o/spain-to-extend-state-of-emergency-to-april-26-rise-in-infections-slows-idUSKBN21M0C7",
+            "urlToImage": "https://s4.reutersmedia.net/resources/r/?m=02&d=20200404&t=2&i=1512307310&w=1200&r=LYNXMPEG3309Z",
+            "publishedAt": "2020-04-04T13:13:19Z",
+            "content": "MADRID (Reuters) - Spanish Prime Minister Pedro Sanchez will ask parliament to extend lockdown measures by 15 more days until April 26 as the daily pace of new coronavirus infections and deaths slowed again on Saturday in one of the world\u2019s most hard-hit coun\u2026 [+1978 chars]"
+        },
+        {
+            "source": {
+                "id": "news24",
+                "name": "News24"
+            },
+            "author": null,
+            "title": "55 construction workers arrested at Joburg building site for contravening lockdown",
+            "description": "The construction workers were found working on a building site in Douglasdale, Johannesburg.",
+            "url": "https://www.news24.com/SouthAfrica/News/55-construction-workers-arrested-at-joburg-building-site-for-contravening-lockdown-20200404",
+            "urlToImage": "http://cdn.24.co.za/files/Cms/General/d/6997/92f1fe6b5b25472f951d5250bad1751c.jpeg",
+            "publishedAt": "2020-04-04T13:03:56+00:00",
+            "content": "Workers at a Johannesburg construction site have been arrested after they were found at work despite the national lockdown.\r\nThe Johannesburg Metro Police Department (JMPD) arrested 55 construction workers at a construction site in Douglasdale, confirmed JMPD\u2026 [+506 chars]"
+        },
+        {
+            "source": {
+                "id": "the-wall-street-journal",
+                "name": "The Wall Street Journal"
+            },
+            "author": "Jesse Newman",
+            "title": "Closed Due to Coronavirus, Restaurants Clear Out Their Pantries",
+            "description": "Chefs give away caviar and oysters; farmers plow under fields of broccoli; \u2018It\u2019s an incredible domino effect\u2019",
+            "url": "https://www.wsj.com/articles/closed-due-to-coronavirus-restaurants-clear-out-their-pantries-11586005203?mod=lead_feature_below_a_pos1",
+            "urlToImage": "https://images.wsj.net/im-172284/social",
+            "publishedAt": "2020-04-04T13:00:00Z",
+            "content": "The closure of restaurants across the country has left chefs and farmers with tons of produce and meat to dispose of in a hurry. \r\nSome high-end restaurants are selling steaks and other cuts of meat directly to consumers rather than in dining rooms that went \u2026 [+179 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news",
+                "name": "ABC News"
+            },
+            "author": "Daniel Manzo",
+            "title": "Pair of storms to hit West Coast with heavy rain, snow and strong winds",
+            "description": "",
+            "url": "https://abcnews.go.com/US/pair-storms-hit-west-coast-heavy-rain-snow/story?id=69974544",
+            "urlToImage": "https://s.abcnews.com/images/US/Colorado_Weather_200404_hpMain_20200404-084002_16x9_992.jpg",
+            "publishedAt": "2020-04-04T12:59:07Z",
+            "content": "A powerful Noreaster remains lurking well offshore of the northeast coastline. It backed westward on Friday, somewhat closer to the shoreline and as a result, gusty winds, large waves, some heavy rain and coastal flooding affected parts of New England.\r\nThe N\u2026 [+3013 chars]"
+        },
+        {
+            "source": {
+                "id": "buzzfeed",
+                "name": "Buzzfeed"
+            },
+            "author": "Jen Abidor",
+            "title": "15 Celebrity Tweets You Missed This Week",
+            "description": "\"I can't imagine ever shaking another hand.\"",
+            "url": "https://www.buzzfeed.com/jenniferabidor/celeb-tweets-4-3-2020",
+            "urlToImage": "https://img.buzzfeed.com/buzzfeed-static/static/2020-04/3/21/enhanced/50da6d5bba44/original-1152-1585949198-4.png?crop=737:386;0,29",
+            "publishedAt": "2020-04-04T12:52:55.6839988Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "al-jazeera-english",
+                "name": "Al Jazeera English"
+            },
+            "author": "Alasdair Soussi",
+            "title": "Keir Starmer elected new leader of UK's Labour Party",
+            "description": "Britain's main opposition party picks lawyer and Labour's Brexit spokesman to succeed Jeremy Corbyn.",
+            "url": "http://www.aljazeera.com/news/2020/04/keir-starmer-elected-leader-uk-labour-party-200404104537862.html",
+            "urlToImage": "https://www.aljazeera.com/mritems/Images/2020/4/4/87d0200257724a30bd2eb7298f7d7206_18.jpg",
+            "publishedAt": "2020-04-04T12:47:00Z",
+            "content": "Glasgow, United Kingdom - Jeremy Corbyn's chequered leadership of the British Labour Party has officially come to an end after Keir Starmer was elected to replace him following a protracted four-month contest.\r\nCorbyn, a staunch socialist who presided over La\u2026 [+6594 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider-uk",
+                "name": "Business Insider (UK)"
+            },
+            "author": "Thomas Pallini",
+            "title": "Coronavirus: Airlines flying cargo-only planes for medical supplies, mail - Business Insider",
+            "description": "The US' four largest airlines are finding new purpose in solely transporting cargo as the COVID-19 is seeing their passenger base evaporate.",
+            "url": "http://uk.businessinsider.com/coronavirus-airlines-flying-cargo-only-planes-for-medical-supplies-mail-2020-4",
+            "urlToImage": "https://i.insider.com/5e87a2a9b3b09265df7412d8?width=1200&format=jpeg",
+            "publishedAt": "2020-04-04T12:47:00Z",
+            "content": "Four new cargo airlines have graced the skies in the past month. Their names: American Airlines, Delta Air Lines, United Airlines, and Southwest Airlines.\r\nThe loss of passenger traffic in the wake of COVID-19's rapid spread has forced the four largest airlin\u2026 [+926 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "BBC News",
+            "title": "Keir Starmer elected as new Labour leader",
+            "description": "The 57-year old MP wins a decisive victory over two rivals and vows to lead party \"into new era\".",
+            "url": "http://www.bbc.co.uk/news/uk-politics-52164589",
+            "urlToImage": "https://ichef.bbci.co.uk/images/ic/1024x576/p088nw5j.jpg",
+            "publishedAt": "2020-04-04T12:37:38Z",
+            "content": "Media captionThe new Labour leader recorded a video where he spoke of the \"honour\" of the post and the effect of coronavirus\r\nSir Keir Starmer has vowed to lead Labour \"into a new era with confidence and hope\" after decisively winning the contest to succeed J\u2026 [+4999 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters Editorial",
+            "title": "China mourns thousands who died in country's coronavirus epidemic",
+            "description": "China on Saturday mourned the thousands of \"martyrs\" who have died in the new coronavirus outbreak, flying the national flag at half mast throughout the country and suspending all forms of entertainment.",
+            "url": "http://feeds.reuters.com/~r/reuters/topNews/~3/RoE0F9pDkq0/china-mourns-thousands-who-died-in-countrys-coronavirus-epidemic-idUSKBN21M00H",
+            "urlToImage": "https://s3.reutersmedia.net/resources/r/?m=02&d=20200404&t=2&i=1512341713&w=1200&r=LYNXMPEG3305O",
+            "publishedAt": "2020-04-04T12:26:21Z",
+            "content": "BEIJING/WUHAN, China (Reuters) - China on Saturday mourned the thousands of \u201cmartyrs\u201d who have died in the new coronavirus outbreak, flying the national flag at half mast throughout the country and suspending all forms of entertainment. \r\nThe day of mourning \u2026 [+4028 chars]"
+        }
+    ]
+}
