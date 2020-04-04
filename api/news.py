@@ -52,18 +52,17 @@ def writeInFile(file, dataJson):
 
 
 def sendRequests(blockingPourcentage, category, country):
-    `news_api = NewsApiClient(api_key=API_KEY)
+    news_api = NewsApiClient(api_key=API_KEY)
     top_headlines_no_filter = getNewsHeadlines(
         news_api, MAX_PAGE_SIZE, category, country)
     removeEmptyEntries(top_headlines_no_filter)
-    removeOccurences(MOTS_CORONA, top_headlines_no_filter,
-                     blockingPourcentage)
+    removeOccurences(MOTS_CORONA, top_headlines_no_filter, blockingPourcentage)
     return top_headlines_no_filter
 
 
 @app.route('/news', methods=['POST'])
 def makeRequest():
-        # list category : business entertainment general health science sports technology
+    # list category : business entertainment general health science sports technology
     blockingPourcentage = int(request.form.get('blockingPourcentage'))
     category = request.form.get('category')
     country = request.form.get('country')
