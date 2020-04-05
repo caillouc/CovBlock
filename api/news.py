@@ -14,7 +14,7 @@ CORS(app)
 API_KEY = "f0a443efaaec4868978a2e693c779496"
 NYT_KEY = "YihnGvBbKB0Wb4tGafCJEI1IrRR3Az9c"
 MOTS_CORONA = ["corona", "covid", "covid-19", "coronavirus",
-               "confinement", "quarantaine", "quinzaine", "wuhan", "lockdown", "quarantine", "face mask"]
+               "confinement", "quarantaine", "quinzaine", "wuhan", "lockdown", "quarantine", "face mask", "virus"]
 
 UNWANTED_SOURCES_ID = ["hacker-news"]
 
@@ -33,9 +33,8 @@ NYT_CATEGORY = ["arts", "automobiles", "books", "business", "fashion", "food", "
 def removeEmptyEntries(newsDictionary):
     needToRemove = []
     for a in newsDictionary["articles"]:
-        if a["title"] is None or a["title"] == '' or a["urlToImage"] is None or a["urlToImage"] == '':
-            if a not in needToRemove:
-                needToRemove.append(a)
+        if (a["title"] is None) or (a["title"] == "") or (a["urlToImage"] is None) or (a["urlToImage"] == ""):
+            needToRemove.append(a)
 
     for a in needToRemove:
         newsDictionary["articles"].remove(a)
@@ -75,7 +74,7 @@ def removeOccurences(wordsToRemove, newsDictionary, blockingPourcentage, excepti
 def saveSource(dic):
     source = []
     for a in dic["articles"]:
-        if a["source"] is not None and a["source"] not in source:
+        if a["source"]["id"] is not None and a["source"]["name"] is not None and a["source"] is not None and a["source"] not in source:
             source.append(a["source"])
     return source
 
