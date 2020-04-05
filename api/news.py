@@ -97,6 +97,26 @@ def cleanData(wordsToRemove, data, blockingPourcentage, exception, unwantedSourc
     removeEmptyEntries(data)
 
     data.update(sources=saveSource(data))
+    data.update(painting=getPaintingURL())
+
+
+def getPaintingURL():
+    parameters = {
+        "q": "ocean",
+        "isHighlight": 'true',
+        "medium": 'Paintings',
+        "hasImages": 'true'
+    }
+
+    response = requests.get(
+        "https://collectionapi.metmuseum.org/public/collection/v1/search", params=parameters).json()
+
+    if int(response['total']) != 0:
+        objectId = response['objectIDs'][randrange(
+            0, int(response['total']))]
+        reply = requests.get(
+            "https://collectionapi.metmuseum.org/public/collection/v1/objects/{}".format(str(objectId)))
+        return reply.json()['primaryImage']
 
 
 def sendRequests(blockingPourcentage, category, country, exception):
@@ -107,14 +127,9 @@ def sendRequests(blockingPourcentage, category, country, exception):
     top_headlines_no_filter = getNewsHeadlines(
         news_api, MAX_PAGE_SIZE, category, country)
 
-    #top_headlines_no_filter = {}
-    # with open("init.json", "r") as f:
-    #    top_headlines_no_filter = json.load(f)
-
     cleanData(MOTS_CORONA, top_headlines_no_filter,
               blockingPourcentage, exception, UNWANTED_SOURCES_ID)
-
-    #writeInFile("data.json", top_headlines_no_filter)
+    top_headlines_no_filter.update({"categories": GOOGLE_CATEGORY})
     return top_headlines_no_filter
 
 
@@ -139,10 +154,9 @@ def getNYTData(blockingPourcentage, category):
     url = "https://api.nytimes.com/svc/topstories/v2/" + category + ".json"
     data = requests.get(
         url, params={"api-key": NYT_KEY}).json()
-    # writeInFile("initimes.json", data)
     data = changeFormat(data)
     cleanData(MOTS_CORONA, data, blockingPourcentage, [], [])
-    # writeInFile("times.json", data)
+    data.update({"categories": NYT_CATEGORY})
     return data
 
 
@@ -155,7 +169,6 @@ def splitException(exception):
 
 @app.route('/news', methods=['GET', 'POST'])
 def makeRequest():
-    # list category : business entertainment general health science sports technology
     if request.method == "POST":
         api = request.form.get('api')
         blockingPourcentage = int(request.form.get('blockingPourcentage'))
