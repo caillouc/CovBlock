@@ -44,6 +44,11 @@ or :
 $ http -f POST localhost:1415/news blockingPourcentage="100" category="sports" country="fr"
 ````
 
+or use the get method :
+```zsh
+$ http http://localhost:1415/news\?blockingPourcentage\=100\&country\=fr
+```
+
 --- 
 [Bisous](https://cartes-virtuelles.joliecarte.com/petites-attentions/carte-bisous.jpg)
 
