@@ -7,16 +7,13 @@
 </head>
 <body>
   <div class="example-container">
-    <mat-toolbar color="primary" class="example-toolbar">
-      <button mat-icon-button (click)="side.toggle()">
-       <mat-icon>menu</mat-icon>
-      </button>
-      <h1 class="example-app-name">Responsive App</h1>
-    </mat-toolbar>
-    
-    <mat-sidenav-container class="example-sidenav-container">
+  <mat-toolbar color="primary" class="example-toolbar">
+    <button mat-icon-button color="white" (click)="side.toggle()"><mat-icon>menu</mat-icon></button>
+    <h1 class="example-app-name">CovBlock</h1>
+  </mat-toolbar>
+    <mat-sidenav-container [hasBackdrop]="false" class="example-sidenav-container">
       
-      <mat-sidenav #side [mode]="'cover'">
+      <mat-sidenav #side opened="true" [mode]="'over'" style="width: 18%;">
         <app-side-content>
         </app-side-content>
       </mat-sidenav>

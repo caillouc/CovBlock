@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NewsService } from '../news.service';
 
 @Component({
@@ -11,11 +11,17 @@ export class SideContentComponent implements OnInit {
   constructor(private newsService : NewsService) { }
 
   ngOnInit(): void {
-    
   }
 
   changedPourcentage(value){
     this.newsService.change_pourcentage(value);
   }
 
+  changedCountry(value){
+    this.newsService.change_country(value);
+  }
+
+  changedCategorie(value){
+    this.newsService.change_categorie(value);
+  }
 }

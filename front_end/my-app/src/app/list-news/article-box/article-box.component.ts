@@ -16,6 +16,13 @@ export class ArticleBoxComponent implements OnInit {
   @Input() description;
   @Input() link;
   @Input() img;
+  @Input() time;
+
+  liked = false;
+
+  like(){
+    this.liked = !this.liked;
+  }
 
   constructor() { }
 
