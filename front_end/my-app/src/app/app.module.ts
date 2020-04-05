@@ -11,16 +11,20 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatSliderModule } from '@angular/material/slider'; 
 import { MatFormFieldModule } from '@angular/material/form-field'; 
 import { MatSelectModule } from '@angular/material/select'; 
+import { MatCardModule } from '@angular/material/card'; 
+import { MatDividerModule } from '@angular/material/divider';
 
 //Nos composants
 import { SideContentComponent } from './side-content/side-content.component';
 import { ListNewsComponent } from './list-news/list-news.component';
+import { ArticleBoxComponent } from './list-news/article-box/article-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideContentComponent,
-    ListNewsComponent
+    ListNewsComponent,
+    ArticleBoxComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { ListNewsComponent } from './list-news/list-news.component';
     MatSliderModule,
     MatFormFieldModule,
     MatSelectModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

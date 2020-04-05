@@ -6,27 +6,27 @@
   <title>Document</title>
 </head>
 <body>
-  
-  <mat-toolbar color="primary" class="example-toolbar">
-    <button mat-icon-button (click)="side.toggle()">
-     <mat-icon>menu</mat-icon>
-    </button>
-    <h1 class="example-app-name">Responsive App</h1>
-  </mat-toolbar>
-  
-  <mat-sidenav-container class="example-sidenav-container">
+  <div class="example-container">
+    <mat-toolbar color="primary" class="example-toolbar">
+      <button mat-icon-button (click)="side.toggle()">
+       <mat-icon>menu</mat-icon>
+      </button>
+      <h1 class="example-app-name">Responsive App</h1>
+    </mat-toolbar>
     
-    <mat-sidenav #side [mode]="'side'">
-      <app-side-content>
-      </app-side-content>
-    </mat-sidenav>
-    <mat-sidenav-content>
-      <app-list-news>
-        
-      </app-list-news>
-    </mat-sidenav-content>
-  </mat-sidenav-container>
-
+    <mat-sidenav-container class="example-sidenav-container">
+      
+      <mat-sidenav #side [mode]="'cover'">
+        <app-side-content>
+        </app-side-content>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <app-list-news>
+          
+        </app-list-news>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
+  </div>
 </body>
 </html>
 

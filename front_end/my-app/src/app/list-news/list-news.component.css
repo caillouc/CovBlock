@@ -8,4 +8,12 @@
 p
 {
     background-color: rgb(126, 109, 224);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#main
+{
+    height: 1000px;
+    width: 100%;
 }

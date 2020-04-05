@@ -1,7 +1,16 @@
-<p>Principal content works</p>
-
-<button (click)="data_requested()" id="request">get data from server</button>
-<div *ngFor="let article of data.articles">
-    <p *ngIf="article">{{article.description}}</p>
+<div id="main">
+    <button (click)="data_requested()" id="request">get data from server</button>
+    <div *ngIf="data">
+        <div *ngFor="let article of data.articles">
+            <app-article-box    title={{article.title}} 
+                                author={{article.author}} 
+                                source={{article.source}}
+                                content={{article.content}} 
+                                description={{article.description}}
+                                link={{article.url}}
+                                img={{article.urlToImage}} 
+                                *ngIf="article"></app-article-box>
+        </div>
+    </div>
 </div>
-
+    

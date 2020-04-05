@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NewsService } from '../news.service';
 
 @Component({
   selector: 'app-side-content',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideContentComponent implements OnInit {
 
-  constructor() { }
+  constructor(private newsService : NewsService) { }
 
   ngOnInit(): void {
+    
+  }
+
+  changedPourcentage(value){
+    this.newsService.change_pourcentage(value);
   }
 
 }

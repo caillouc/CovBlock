@@ -1,0 +1,9 @@
+
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+.example-card {
+max-width: 400px;
+}
+.example-header-image 
+{
+    background-size: cover;
+}
