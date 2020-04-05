@@ -161,7 +161,7 @@ def getNYTData(blockingPourcentage, category):
 
 def splitException(exception):
     if exception is not None:
-        return exception.split()
+        return exception.split('_')
     else:
         return []
 
