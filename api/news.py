@@ -2,6 +2,7 @@ from newsapi import NewsApiClient
 from random import randrange
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+import requests
 import json
 import time
 import sys
@@ -11,12 +12,20 @@ CORS(app)
 
 ## CONSTANTES ##
 API_KEY = "f0a443efaaec4868978a2e693c779496"
+NYT_KEY = "YihnGvBbKB0Wb4tGafCJEI1IrRR3Az9c"
 MOTS_CORONA = ["corona", "covid", "covid-19", "coronavirus",
                "confinement", "quarantaine", "quinzaine", "wuhan", "lockdown", "quarantine", "face mask"]
 
 UNWANTED_SOURCES_ID = ["hacker-news"]
 
 MAX_PAGE_SIZE = 100
+
+ERR_DIC = {"error": "an error has occured"}
+
+GOOGLE_CATEGORY = ["business",  "entertainment",
+                   "general", "health", "science", "sports", "technology"]
+NYT_CATEGORY = ["arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries",
+                "opinion", "politics", "realestate", "science", "sports", "sundayreview", "technology", "theater", "t-magazine", "travel", "upshot", "us", "world"]
 
 
 ## METHODES ##
@@ -34,10 +43,11 @@ def removeEmptyEntries(newsDictionary):
 
 
 def removeUnwantedSources(newsDictionary, unwantedSourcesId):
-    for a in newsDictionary["articles"]:
-        for unwanted in unwantedSourcesId:
-            if a["source"]["id"] is None or unwanted in a["source"]["id"]:
-                a["title"] = None
+    if unwantedSourcesId:
+        for a in newsDictionary["articles"]:
+            for unwanted in unwantedSourcesId:
+                if a["source"]["id"] is None or unwanted in a["source"]["id"]:
+                    a["title"] = None
 
 
 def isInException(exceptions, sid):
@@ -79,7 +89,19 @@ def writeInFile(file, dataJson):
         json.dump(dataJson, f)
 
 
+def cleanData(wordsToRemove, data, blockingPourcentage, exception, unwantedSource):
+    removeOccurences(wordsToRemove, data,
+                     blockingPourcentage, exception)
+    removeUnwantedSources(data, unwantedSource)
+
+    removeEmptyEntries(data)
+
+    data.update(sources=saveSource(data))
+
+
 def sendRequests(blockingPourcentage, category, country, exception):
+    if category not in GOOGLE_CATEGORY and category is not None:
+        return ERR_DIC
     news_api = NewsApiClient(api_key=API_KEY)
 
     top_headlines_no_filter = getNewsHeadlines(
@@ -89,17 +111,39 @@ def sendRequests(blockingPourcentage, category, country, exception):
     # with open("init.json", "r") as f:
     #    top_headlines_no_filter = json.load(f)
 
-    removeOccurences(MOTS_CORONA, top_headlines_no_filter,
-                     blockingPourcentage, exception)
-    removeUnwantedSources(top_headlines_no_filter, UNWANTED_SOURCES_ID)
+    cleanData(MOTS_CORONA, top_headlines_no_filter,
+              blockingPourcentage, exception, UNWANTED_SOURCES_ID)
 
-    removeEmptyEntries(top_headlines_no_filter)
-
-    sources = saveSource(top_headlines_no_filter)
-    top_headlines_no_filter.update(sources=sources)
-
-    writeInFile("data.json", top_headlines_no_filter)
+    #writeInFile("data.json", top_headlines_no_filter)
     return top_headlines_no_filter
+
+
+def changeFormat(dic):
+    newDic = {}
+    newDic.update({"status": "ok", "totalResults": len(
+        dic["results"]), "articles": []})
+    for a in dic["results"]:
+        art = {}
+        source = {"id": "nyt", "name": "Ney York Times"}
+        art.update({"source": source, "author": a["byline"], "title": a["title"], "description": a["abstract"],
+                    "url": a["url"], "urlToImage": a["multimedia"][0]["url"], "publishedAt": a["published_date"], "content": ""})
+        newDic["articles"].append(art)
+    return newDic
+
+
+def getNYTData(blockingPourcentage, category):
+    if category not in NYT_CATEGORY and category is not None:
+        return ERR_DIC
+    if category is None:
+        category = "home"
+    url = "https://api.nytimes.com/svc/topstories/v2/" + category + ".json"
+    data = requests.get(
+        url, params={"api-key": NYT_KEY}).json()
+    # writeInFile("initimes.json", data)
+    data = changeFormat(data)
+    cleanData(MOTS_CORONA, data, blockingPourcentage, [], [])
+    # writeInFile("times.json", data)
+    return data
 
 
 def splitException(exception):
@@ -113,18 +157,26 @@ def splitException(exception):
 def makeRequest():
     # list category : business entertainment general health science sports technology
     if request.method == "POST":
+        api = request.form.get('api')
         blockingPourcentage = int(request.form.get('blockingPourcentage'))
         category = request.form.get('category')
         country = request.form.get('country')
         exception = request.form.get('exception')
         exception = splitException(exception)
     else:
+        api = request.args.get('api')
         blockingPourcentage = int(request.args.get('blockingPourcentage'))
         category = request.args.get('category')
         country = request.args.get('country')
         exception = request.args.get('exception')
         exception = splitException(exception)
-    return jsonify(sendRequests(blockingPourcentage, category, country, exception))
+
+    if api == "nyt":
+        return getNYTData(blockingPourcentage, category)
+    elif api == "google":
+        return jsonify(sendRequests(blockingPourcentage, category, country, exception))
+    else:
+        return ERR_DIC
 
 
 ## MAIN ##
