@@ -82,12 +82,12 @@ def writeInFile(file, dataJson):
 def sendRequests(blockingPourcentage, category, country, exception):
     news_api = NewsApiClient(api_key=API_KEY)
 
-    # top_headlines_no_filter = getNewsHeadlines(
-    #    news_api, MAX_PAGE_SIZE, category, country)
+    top_headlines_no_filter = getNewsHeadlines(
+        news_api, MAX_PAGE_SIZE, category, country)
 
-    top_headlines_no_filter = {}
-    with open("init.json", "r") as f:
-        top_headlines_no_filter = json.load(f)
+    #top_headlines_no_filter = {}
+    # with open("init.json", "r") as f:
+    #    top_headlines_no_filter = json.load(f)
 
     removeOccurences(MOTS_CORONA, top_headlines_no_filter,
                      blockingPourcentage, exception)
