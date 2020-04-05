@@ -62,7 +62,7 @@ def sendRequests(blockingPourcentage, category, country):
     return top_headlines_no_filter
 
 
-@app.route('/news', methods=['GET','POST'])
+@app.route('/news', methods=['GET', 'POST'])
 def makeRequest():
     # list category : business entertainment general health science sports technology
     if request.method == "POST":
@@ -71,8 +71,8 @@ def makeRequest():
         country = request.form.get('country')
     else:
         blockingPourcentage = int(request.args.get('blockingPourcentage'))
-        category = None
-        country = None
+        category = request.args.get('category')
+        country = request.args.get('country')
     return jsonify(sendRequests(blockingPourcentage, category, country))
 
 
