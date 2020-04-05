@@ -1,7 +1,15 @@
 <p>side-content works!</p>
 
 <p>This is the side bar with all the filterning options</p>
-<mat-slider thumbLabel></mat-slider>
+
+<mat-divider></mat-divider>
+
+<p>choose a filtering percentage</p>
+<mat-slider value="100" thumbLabel (change)="changedPourcentage($event)"></mat-slider>
+
+<mat-divider></mat-divider>
+
+
 <p>Choose a Category<p>
 <mat-form-field appearance="fill">
     <mat-label>Optional</mat-label>
@@ -16,6 +24,8 @@
         <mat-option value="technology">Technology</mat-option>
     </mat-select>
 </mat-form-field>
+
+<mat-divider></mat-divider>
 
 <p>choose a country</p>
 <mat-form-field appearance="fill">
@@ -77,6 +87,9 @@
         <mat-option value="ve">Venezuela</mat-option>
         <mat-option value="za">South Africa</mat-option>
     </mat-select>
+
+    <mat-divider></mat-divider>
+
 </mat-form-field>
 
                                                  

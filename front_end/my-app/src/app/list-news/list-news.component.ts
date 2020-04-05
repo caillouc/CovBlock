@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { NewsService } from '../news.service';
 
 @Component({
   selector: 'app-list-news',
@@ -8,19 +8,21 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ListNewsComponent implements OnInit {
 
-  data;
-  constructor(private http:HttpClient) { }
+  public data;
+  constructor(private newsService:NewsService) { }
 
   ngOnInit(): void {
   }
-
+  
   data_requested(){
-    this.http.get<any>("http://localhost:1415/news?blockingPourcentage=100")
-    .subscribe(d =>
+    this.newsService.fetch_data().subscribe(
+      d =>
       {
-        console.log(d.articles[0].description);
+        console.log(d);
         this.data = d;
-      }  
+      }
     );
+    
   }
+
 }
