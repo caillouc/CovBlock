@@ -16,7 +16,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule} from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle'; 
 import { MatGridListModule } from '@angular/material/grid-list'
-import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'; 
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; 
+import { ReactiveFormsModule } from '@angular/forms';
+
 //Nos composants
 import { SideContentComponent } from './side-content/side-content.component';
 import { ListNewsComponent } from './list-news/list-news.component';
@@ -45,7 +47,8 @@ import { ArticleBoxComponent } from './list-news/article-box/article-box.compone
     MatButtonModule,
     MatButtonToggleModule,
     MatGridListModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

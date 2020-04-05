@@ -9,7 +9,7 @@ import { NewsService } from '../news.service';
 export class ListNewsComponent implements OnInit {
 
   public data;
-  // public liked_articles : [ArticleBoxComponent];
+  public sources;
   public spin: Boolean = true;
   constructor(private newsService:NewsService) { }
 
@@ -22,15 +22,6 @@ export class ListNewsComponent implements OnInit {
     this.spin = b;
   }
 
-  // like_article(article){
-  //   this.liked_articles.push(article);
-  // }
-
-  // update_liked_articles(){
-  //   for (var art of this.liked_articles) {
-      
-  //   }
-  // }
   
   data_requested(){
     this.set_spin(true);
@@ -39,9 +30,9 @@ export class ListNewsComponent implements OnInit {
       d =>
       {
         console.log(d);
-        console.log(d.articles[0]
-          )
         this.data = d;
+        this.sources = d.sources;
+        this.newsService.set_sources(this.sources)
         this.set_spin(false);
       }
     );

@@ -1,11 +1,28 @@
 
+<h2 class="text-side">Source</h2>
+<mat-button-toggle-group horizontal (change)="changedAPI($event)" name="Categorie" aria-label="Font Style" class="grid" value="google">
+    <mat-button-toggle value="google">Google</mat-button-toggle>
+    <mat-button-toggle value="nyt">New York Times</mat-button-toggle>
+</mat-button-toggle-group>
+
+<mat-divider class="side-div"></mat-divider>
+
 <div>
 <h2 class="text-side">Filtering Percentage</h2>
     <mat-slider color="primary" value="100" thumbLabel (change)="changedPourcentage($event)"></mat-slider>
 </div>
 
-<mat-divider class="side-div"></mat-divider>
+<mat-divider class="side-div" *ngIf="showExeptions"></mat-divider>
+<h2 class="text-side" *ngIf="showExeptions">Exceptions</h2>
 
+<mat-form-field class="selector" appearance="fill" *ngIf="showExeptions">
+    <mat-label>Select</mat-label>
+    <mat-select multiple (selectionChange)="changedException($event)">        
+        <mat-option *ngFor="let pair of sources" [value]="pair.id">{{pair.name}}</mat-option>
+    </mat-select>
+</mat-form-field>
+
+<mat-divider class="side-div"></mat-divider>
 <h2 class="text-side">Category</h2>
 
 <mat-button-toggle-group class="grid" (change)="changedCategorie($event)" vertical name="Categorie" aria-label="Font Style" value="">
@@ -81,8 +98,7 @@
         <mat-option value="ve">Venezuela</mat-option>
         <mat-option value="za">South Africa</mat-option>
     </mat-select>
-
-
 </mat-form-field>
 
-                                                 
+
+ 

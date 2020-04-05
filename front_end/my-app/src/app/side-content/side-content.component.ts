@@ -1,5 +1,6 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
 import { NewsService } from '../news.service';
+import {FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-side-content',
@@ -8,9 +9,22 @@ import { NewsService } from '../news.service';
 })
 export class SideContentComponent implements OnInit {
 
+  showExeptions = true;
+  sources = {id:"nothhing", name:"Nothing"};
   constructor(private newsService : NewsService) { }
 
   ngOnInit(): void {
+    this.newsService.set_callback2(this.updateSourcesSide.bind(this));
+    this.sources = this.newsService.get_sources();
+  }
+
+  updateSourcesSide(newSources){
+    this.sources = newSources;
+  }
+
+  changedAPI(value){
+    this.showExeptions = value.value === "nyt" ? false : true;
+    this.newsService.change_api(value);
   }
 
   changedPourcentage(value){
@@ -24,4 +38,11 @@ export class SideContentComponent implements OnInit {
   changedCategorie(value){
     this.newsService.change_categorie(value);
   }
+
+  changedException(value) {
+    this.newsService.change_exception(value);
+  }
+
+  toppings = new FormControl();
+  toppingList: string[] = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
 }
