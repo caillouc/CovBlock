@@ -1,8 +1,8 @@
 #request
 {
     background-color: rgb(228, 110, 110);
-    left: 45%;
-    right: 45%;
+    margin-left: 45%;
+    margin-right: 45%;
 }
 
 p
@@ -14,6 +14,6 @@ p
 
 #main
 {
-    height: 1000px;
+    height: 800px;
     width: 100%;
-}
+}  

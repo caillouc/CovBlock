@@ -2,7 +2,8 @@
     <button (click)="data_requested()" id="request">get data from server</button>
     <div *ngIf="data">
         <div *ngFor="let article of data.articles">
-            <app-article-box    title={{article.title}} 
+            <app-article-box class="box"
+                                title={{article.title}} 
                                 author={{article.author}} 
                                 source={{article.source}}
                                 content={{article.content}} 
