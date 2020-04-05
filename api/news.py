@@ -14,6 +14,8 @@ API_KEY = "f0a443efaaec4868978a2e693c779496"
 MOTS_CORONA = ["corona", "covid", "covid-19", "coronavirus",
                "confinement", "quarantaine", "quinzaine", "wuhan", "lockdown", "quarantine", "face mask"]
 
+UNWANTED_SOURCES_ID = ["hacker-news"]
+
 MAX_PAGE_SIZE = 100
 
 
@@ -22,7 +24,7 @@ MAX_PAGE_SIZE = 100
 def removeEmptyEntries(newsDictionary):
     needToRemove = []
     for a in newsDictionary["articles"]:
-        if(a["title"] is None or a["title"] == ''):
+        if a["title"] is None or a["title"] == '' or a["urlToImage"] is None or a["urlToImage"] == '':
             if a not in needToRemove:
                 needToRemove.append(a)
 
@@ -31,10 +33,17 @@ def removeEmptyEntries(newsDictionary):
     newsDictionary["totalResults"] = len(newsDictionary["articles"])
 
 
-def isInException(exceptions, sname, sid):
+def removeUnwantedSources(newsDictionary, unwantedSourcesId):
+    for a in newsDictionary["articles"]:
+        for unwanted in unwantedSourcesId:
+            if a["source"]["id"] is None or unwanted in a["source"]["id"]:
+                a["title"] = None
+
+
+def isInException(exceptions, sid):
     b = False
     for e in exceptions:
-        if(sname is not None and e in sname.lower()) or (sid is not None and e in sid.lower()):
+        if (sid is not None and e in sid.lower()):
             b = True
     return b
 
@@ -46,11 +55,19 @@ def isInString(substring, s):
 def removeOccurences(wordsToRemove, newsDictionary, blockingPourcentage, exception):
     for a in newsDictionary["articles"]:
         for m in wordsToRemove:
-            if not (isInException(exception, a["source"]["name"], a["source"]["id"])):
+            if not (isInException(exception, a["source"]["id"])):
                 if isInString(m, a["title"]) or isInString(m, a["description"]) or isInString(m, a["url"]) or isInString(m, a["urlToImage"]) or isInString(m, a["content"]):
                     i = randrange(100)
                     if i <= blockingPourcentage:
                         a["title"] = None
+
+
+def saveSource(dic):
+    source = []
+    for a in dic["articles"]:
+        if a["source"] is not None and a["source"] not in source:
+            source.append(a["source"])
+    return source
 
 
 def getNewsHeadlines(news_api, page_size, category, country):
@@ -64,15 +81,23 @@ def writeInFile(file, dataJson):
 
 def sendRequests(blockingPourcentage, category, country, exception):
     news_api = NewsApiClient(api_key=API_KEY)
+
     # top_headlines_no_filter = getNewsHeadlines(
     #    news_api, MAX_PAGE_SIZE, category, country)
 
     top_headlines_no_filter = {}
     with open("init.json", "r") as f:
         top_headlines_no_filter = json.load(f)
+
     removeOccurences(MOTS_CORONA, top_headlines_no_filter,
                      blockingPourcentage, exception)
+    removeUnwantedSources(top_headlines_no_filter, UNWANTED_SOURCES_ID)
+
     removeEmptyEntries(top_headlines_no_filter)
+
+    sources = saveSource(top_headlines_no_filter)
+    top_headlines_no_filter.update(sources=sources)
+
     writeInFile("data.json", top_headlines_no_filter)
     return top_headlines_no_filter
 
