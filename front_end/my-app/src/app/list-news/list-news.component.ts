@@ -10,6 +10,7 @@ export class ListNewsComponent implements OnInit {
 
   public data;
   public sources;
+  public painting;
   public spin: Boolean = true;
   constructor(private newsService:NewsService) { }
 
@@ -32,6 +33,7 @@ export class ListNewsComponent implements OnInit {
         console.log(d);
         this.data = d;
         this.sources = d.sources;
+        this.painting = d.painting;
         this.newsService.set_sources(this.sources)
         this.set_spin(false);
       }

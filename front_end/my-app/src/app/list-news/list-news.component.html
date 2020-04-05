@@ -1,5 +1,6 @@
 <div id="main">
     <div *ngIf="data">
+        <img class="painting" src={{data.painting}} style="width:25%; float: right;" alt="Some Art :)">
         <div *ngFor="let article of data.articles">
             <app-article-box class="box"
                                 title={{article.title}} 
@@ -12,7 +13,6 @@
                                 time={{article.publishedAt}}
                                 *ngIf="article"></app-article-box>
         </div>
-        
     </div>
     <mat-spinner *ngIf="spin"></mat-spinner>
 </div>
