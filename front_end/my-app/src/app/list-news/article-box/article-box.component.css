@@ -1,9 +1,13 @@
 
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 .example-card {
-max-width: 400px;
+max-width: 30%;
+margin-left: 35%;
+margin-right: 35%;
 }
+a { color: inherit; } 
 .example-header-image 
 {
     background-size: cover;
 }
+
