@@ -1,17 +1,19 @@
 <div id="main">
-    <button (click)="data_requested()" id="request">get data from server</button>
     <div *ngIf="data">
         <div *ngFor="let article of data.articles">
             <app-article-box class="box"
                                 title={{article.title}} 
                                 author={{article.author}} 
-                                source={{article.source}}
+                                source={{article.source.name}}
                                 content={{article.content}} 
                                 description={{article.description}}
                                 link={{article.url}}
                                 img={{article.urlToImage}} 
+                                time={{article.publishedAt}}
                                 *ngIf="article"></app-article-box>
         </div>
+        
     </div>
+    <mat-spinner *ngIf="spin"></mat-spinner>
 </div>
     

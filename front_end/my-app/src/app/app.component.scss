@@ -1,9 +1,5 @@
-p
-{
-  margin-top: 20px;
-  height: 100px;
-  background-color: rgb(138, 139, 221);
-}
+@import '~@angular/material/theming';
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
 .example-container {
   display: flex;
@@ -15,9 +11,12 @@ p
   right: 0;
 }
 
-
+.example-app-name
+{
+  align-self: center;
+}
 .example-sidenav-container {
   /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
      causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
-  flex: 1;
+  flex: 1;  
 }

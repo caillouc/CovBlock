@@ -13,7 +13,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select'; 
 import { MatCardModule } from '@angular/material/card'; 
 import { MatDividerModule } from '@angular/material/divider';
-
+import { MatButtonModule} from '@angular/material/button';
+import { MatButtonToggleModule } from '@angular/material/button-toggle'; 
+import { MatGridListModule } from '@angular/material/grid-list'
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'; 
 //Nos composants
 import { SideContentComponent } from './side-content/side-content.component';
 import { ListNewsComponent } from './list-news/list-news.component';
@@ -38,7 +41,11 @@ import { ArticleBoxComponent } from './list-news/article-box/article-box.compone
     MatSelectModule,
     HttpClientModule,
     MatCardModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatGridListModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

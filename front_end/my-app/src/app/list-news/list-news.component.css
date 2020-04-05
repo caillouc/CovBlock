@@ -14,6 +14,13 @@ p
 
 #main
 {
-    height: 800px;
+    height: 100%;
     width: 100%;
 }  
+
+mat-spinner
+{
+    margin:  0  auto;
+    margin-top: 5%;
+    align-self: center;
+}

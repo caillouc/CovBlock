@@ -1,9 +1,12 @@
 
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
 .example-card {
 max-width: 30%;
 margin-left: 35%;
 margin-right: 35%;
+margin-top: 1.5%;
+
 }
 a { color: inherit; } 
 .example-header-image 
@@ -11,3 +14,12 @@ a { color: inherit; }
     background-size: cover;
 }
 
+.example-fill-remaining-space {
+    /* This fills the remaining space, by using flexbox. 
+       Every toolbar row uses a flexbox row layout. */
+    flex: 1 1 auto;
+}
+
+.topnav-right {
+    margin-left: 88.5%;
+}

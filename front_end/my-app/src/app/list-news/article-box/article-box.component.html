@@ -1,5 +1,5 @@
 
-<mat-card  class="example-card">
+<mat-card  class="example-card mat-elevation-z23">
   <mat-card-header>
     <!-- <div mat-card-avatar class="example-header-image" style="background-image: url('{{img}}');"></div> -->
     <mat-card-title>
@@ -13,8 +13,15 @@
   <mat-card-content>
     <p>{{description}}</p>
   </mat-card-content>
-     <mat-card-actions layout="row" layout-align="end center">
-    <button>Open Article</button>
-    <button>Some other thing</button>
+     <mat-card-actions layout="row" layout-align="right">
+      <span class="example-fill-remaining-space" flex></span>
+      <span class="topnav-right">
+        <button (click)="like()" mat-stroked-button color="primary" class="button-like mat-elevation-z2">
+          <mat-icon aria-hidden="false" aria-label="Example heart icon" *ngIf="liked">favorite</mat-icon>
+          <mat-icon aria-hidden="false" aria-label="Example heart icon" *ngIf="!liked">favorite_border</mat-icon>
+        </button>
+      </span>
   </mat-card-actions>
 </mat-card>
+
+
