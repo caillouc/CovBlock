@@ -37,18 +37,18 @@ You might need to use `pacman` or `brew` instead of `apt` depending on your oper
 Then you can use this command : 
 
 ```zsh 
-$ http -f POST localhost:1415/news blockingPourcentage="100" 
+$ http -f POST localhost:1415/news api="google" blockingPourcentage="100" 
 ```
 
 or : 
 
 ```zsh
-$ http -f POST localhost:1415/news blockingPourcentage="100" category="sports" country="fr"
+$ http -f POST localhost:1415/news api="google" blockingPourcentage="100" category="sports" country="fr"
 ````
 
 or use the get method :
 ```zsh
-$ http http://localhost:1415/news\?blockingPourcentage\=100\&country\=fr
+$ http http://localhost:1415/news\?api\=google\&blockingPourcentage\=100\&country\=fr
 ```
 
 ## Bonus 

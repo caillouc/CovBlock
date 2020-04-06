@@ -1,6 +1,24 @@
+<mat-card style="width:22.5%; float: right; position: fixed; right: 3%; top: 9.5%;" class="mat-elevation-z23" *ngIf="data">
+    <mat-card-title>
+        {{data.painting.name}}
+    </mat-card-title>
+    <mat-card-subtitle>
+        {{data.painting.artist}}
+    </mat-card-subtitle>
+    <img mat-card-image src={{data.painting.url}}>
+    <!-- <mat-card-actions layout="row" layout-align="right">
+        <span class="example-fill-remaining-space" flex></span>
+        <span class="topnav-right">
+          <button (click)="like()" mat-stroked-button color="primary" class="button-like mat-elevation-z2">
+            <mat-icon aria-hidden="false" aria-label="Example heart icon" *ngIf="liked">favorite</mat-icon>
+            <mat-icon aria-hidden="false" aria-label="Example heart icon" *ngIf="!liked">favorite_border</mat-icon>
+          </button>
+        </span>
+    </mat-card-actions> -->
+</mat-card>
 <div id="main">
     <div *ngIf="data">
-        <img class="painting" src={{data.painting}} style="width:25%; float: right;" alt="Some Art :)">
+            <!-- <img class="painting" src={{data.painting}} style="width:25%; float: right;" alt="Some Art :)"> -->
         <div *ngFor="let article of data.articles">
             <app-article-box class="box"
                                 title={{article.title}} 

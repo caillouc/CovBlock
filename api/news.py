@@ -114,8 +114,17 @@ def getPaintingURL():
         objectId = response['objectIDs'][randrange(
             0, int(response['total']))]
         reply = requests.get(
-            "https://collectionapi.metmuseum.org/public/collection/v1/objects/{}".format(str(objectId)))
-        return reply.json()['primaryImage']
+            "https://collectionapi.metmuseum.org/public/collection/v1/objects/{}".format(str(objectId))).json()
+        name = reply['title']
+        artist = reply['artistDisplayName']
+        url = reply['primaryImage']
+        dick = {
+            'name': name,
+            'artist': artist,
+            'url': url
+        }
+        return dick
+        
 
 
 def sendRequests(blockingPourcentage, category, country, exception):
@@ -161,7 +170,7 @@ def getNYTData(blockingPourcentage, category):
 
 def splitException(exception):
     if exception is not None:
-        return exception.split('_')
+        return exception.split('_,')
     else:
         return []
 

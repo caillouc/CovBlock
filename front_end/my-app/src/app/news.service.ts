@@ -21,6 +21,7 @@ export class NewsService {
     console.log(value);
     this.api = value.value;
     this.callback();
+    this.category = "";
   }
 
   change_pourcentage(value){
@@ -64,7 +65,7 @@ export class NewsService {
   }
 
   fetch_data(){
-    return this.http.get<any>("http://10.0.0.4:1415/news?blockingPourcentage=" + this.pourcentage.toString() +
+    return this.http.get<any>("http://localhost:1415/news?blockingPourcentage=" + this.pourcentage.toString() +
     ("&api=" + this.api) + 
     (this.country === "" ? "" : "&country=" + this.country.toString()) +
     (this.category === "" ? "" : "&category=" + this.category.toString()) +

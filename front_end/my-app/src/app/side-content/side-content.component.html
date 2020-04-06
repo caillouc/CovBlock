@@ -15,9 +15,11 @@
 <mat-divider class="side-div" *ngIf="showExeptions"></mat-divider>
 <h2 class="text-side" *ngIf="showExeptions">Exceptions</h2>
 
-<mat-form-field class="selector" appearance="fill" *ngIf="showExeptions">
+<!-- Exeptions -->
+<mat-form-field class="selector" value="" appearance="fill" *ngIf="showExeptions">
     <mat-label>Select</mat-label>
-    <mat-select multiple (selectionChange)="changedException($event)">        
+    <mat-select multiple (selectionChange)="changedException($event)">    
+        <mat-option value="" disabled>None</mat-option>    
         <mat-option *ngFor="let pair of sources" [value]="pair.id">{{pair.name}}</mat-option>
     </mat-select>
 </mat-form-field>
@@ -25,7 +27,8 @@
 <mat-divider class="side-div"></mat-divider>
 <h2 class="text-side">Category</h2>
 
-<mat-button-toggle-group class="grid" (change)="changedCategorie($event)" vertical name="Categorie" aria-label="Font Style" value="">
+<!-- Google Categories  -->
+<mat-button-toggle-group class="grid" (change)="changedCategorie($event)" vertical name="Categorie" aria-label="Font Style" value="" *ngIf="showExeptions">
             <mat-button-toggle value="">All</mat-button-toggle>
             <mat-button-toggle value="business">Business</mat-button-toggle>
             <mat-button-toggle value="entertainment">Entertainment</mat-button-toggle>
@@ -35,11 +38,31 @@
             <mat-button-toggle value="sports">Sports</mat-button-toggle>
             <mat-button-toggle value="technology">Technology</mat-button-toggle>
 </mat-button-toggle-group>
-  
 
-<mat-divider class="side-div"></mat-divider>
-<h2 class="text-side">Country</h2>
-<mat-form-field class="selector" appearance="fill">
+<!-- New York Time Categories -->
+<mat-button-toggle-group class="grid" (change)="changedCategorie($event)" vertical name="Categorie" aria-label="Font Style" value="" *ngIf="!showExeptions">
+            <mat-button-toggle value="">All</mat-button-toggle>
+            <mat-button-toggle value="automobiles">Automobiles</mat-button-toggle>
+            <mat-button-toggle value="business">Business</mat-button-toggle>
+            <mat-button-toggle value="fashion">Fashion</mat-button-toggle>
+            <mat-button-toggle value="food">Food</mat-button-toggle>
+            <mat-button-toggle value="health">Health</mat-button-toggle>
+            <mat-button-toggle value="movies">Movies</mat-button-toggle>
+            <mat-button-toggle value="politics">Politics</mat-button-toggle>
+            <mat-button-toggle value="science">Science</mat-button-toggle>
+            <mat-button-toggle value="sports">Sports</mat-button-toggle>
+            <mat-button-toggle value="technology">Technology</mat-button-toggle>
+            <mat-button-toggle value="theater">Theater</mat-button-toggle>
+            <mat-button-toggle value="world">World</mat-button-toggle>
+</mat-button-toggle-group>
+
+
+
+
+<!-- Country -->
+<mat-divider class="side-div" *ngIf="showExeptions"></mat-divider>
+<h2 class="text-side" *ngIf="showExeptions">Country</h2>
+<mat-form-field class="selector" appearance="fill" *ngIf="showExeptions">
     <mat-label>Select</mat-label>
     <mat-select value="" (selectionChange)="changedCountry($event)">
         <mat-option value="">All</mat-option>
