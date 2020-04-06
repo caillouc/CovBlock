@@ -23,9 +23,24 @@ p
     width: 100%;
 }  
 
-mat-spinner
+.spinner-middle
+{
+    margin:  0  auto;
+    margin-top: 8%;
+    align-self: center;
+}
+
+.spinner-shifted
 {
     margin:  0  auto;
     margin-top: 5%;
-    align-self: center;
+    margin-right: 55%;
+}
+
+.spinner-art
+{
+    margin:  0  auto;
+    margin-top: 8%;
+    margin-right: 13.5%;
+    float: right;
 }

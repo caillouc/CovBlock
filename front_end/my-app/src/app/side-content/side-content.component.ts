@@ -9,7 +9,7 @@ import {FormControl} from '@angular/forms';
 })
 export class SideContentComponent implements OnInit {
 
-  showExeptions = true;
+  showExeptions = false;
   sources = {id:"nothhing", name:"Nothing"};
   constructor(private newsService : NewsService) { }
 

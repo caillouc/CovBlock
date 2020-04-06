@@ -7,3 +7,4 @@ coverage/yarn.lock
 npm-debug.log
 api/data.json
 api/times.json
+!front-end/src/dist/my_app/*

@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class NewsService {
   private data;
-  private api = "google";
+  private api = "nyt";
   public sources;
   private pourcentage = 100;
   private callback;

@@ -16,6 +16,8 @@
         </span>
     </mat-card-actions> -->
 </mat-card>
+<mat-spinner class="spinner-art" [diameter]=30 *ngIf="artSpin && !spin"></mat-spinner>
+<!-- *ngIf="artSpin && !spin" -->
 <div id="main">
     <div *ngIf="data">
             <!-- <img class="painting" src={{data.painting}} style="width:25%; float: right;" alt="Some Art :)"> -->
@@ -32,6 +34,7 @@
                                 *ngIf="article"></app-article-box>
         </div>
     </div>
-    <mat-spinner *ngIf="spin"></mat-spinner>
+    <mat-spinner class="spinner-middle" *ngIf="spin && artSpin"></mat-spinner>
+    <mat-spinner class="spinner-shifted" *ngIf="spin && !artSpin"></mat-spinner>
 </div>
     

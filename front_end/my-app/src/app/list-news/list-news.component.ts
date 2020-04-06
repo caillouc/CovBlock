@@ -12,11 +12,14 @@ export class ListNewsComponent implements OnInit {
   public art;
   public sources;
   public spin: Boolean = true;
+  public artSpin: Boolean = true;
   constructor(private newsService:NewsService) { }
 
   ngOnInit(): void {
-    this.art_requested();
+    // this.set_spin(true);
+    // this.set_artSpin(true);
     this.data_requested();
+    this.art_requested();
     this.newsService.set_callback(this.data_requested.bind(this));
   }
 
@@ -24,11 +27,18 @@ export class ListNewsComponent implements OnInit {
     this.spin = b;
   }
 
+  set_artSpin(b:boolean){
+    this.artSpin = b;
+  }
+
   art_requested(){
+    this.set_artSpin(true);
+    this.art = null;
     this.newsService.fetch_art().subscribe(
       d=>
       {
         this.art = d;
+        this.set_artSpin(false);
       }
     )
   }
