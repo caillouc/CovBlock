@@ -581,7 +581,7 @@ class NewsService {
         return this.sources;
     }
     fetch_data() {
-        return this.http.get("http://localhost:1415/news?blockingPourcentage=" + this.pourcentage.toString() +
+        return this.http.get("http://89.217.104.129:1415/news?blockingPourcentage=" + this.pourcentage.toString() +
             ("&api=" + this.api) +
             (this.country === "" ? "" : "&country=" + this.country.toString()) +
             (this.category === "" ? "" : "&category=" + this.category.toString()) +
