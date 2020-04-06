@@ -594,7 +594,7 @@ class NewsService {
             (this.exceptions.length === 0 ? "" : "&exception=" + this.exceptions.map(s => s + "_").toString().slice(0, -1)));
     }
     fetch_art() {
-        return this.http.get("http://localhost:1415/art");
+        return this.http.get("http://89.217.104.129:1415/art");
     }
     get_data() {
         return this.data;

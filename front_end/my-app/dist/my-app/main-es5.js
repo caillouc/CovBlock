@@ -1110,7 +1110,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "fetch_art",
         value: function fetch_art() {
-          return this.http.get("http://localhost:1415/art");
+          return this.http.get("http://89.217.104.129:1415/art");
         }
       }, {
         key: "get_data",
