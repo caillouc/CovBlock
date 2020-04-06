@@ -205,4 +205,4 @@ def artRequest():
 
 ## MAIN ##
 # ip of raspberry
-app.run('192.168.1.198', port=1415)
+app.run('localhost', port=1415)
