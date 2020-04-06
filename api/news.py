@@ -124,7 +124,6 @@ def getPaintingURL():
             'url': url
         }
         return dick
-        
 
 
 def sendRequests(blockingPourcentage, category, country, exception):
@@ -201,4 +200,5 @@ def makeRequest():
 
 
 ## MAIN ##
-app.run('localhost', port=1415)
+# ip of raspberry
+app.run('192.168.1.198', port=1415)
