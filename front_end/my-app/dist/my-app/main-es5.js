@@ -673,7 +673,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     DialogBodyComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: DialogBodyComponent,
       selectors: [["app-dialog-body"]],
-      decls: 55,
+      decls: 53,
       vars: 0,
       consts: [["mat-dialog-title", ""], [1, "mat-typography"], ["align", "end"], ["mat-button", "", "mat-dialog-close", ""]],
       template: function DialogBodyComponent_Template(rf, ctx) {
@@ -732,7 +732,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, ": you can choose which source you want your information from");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, ": You can choose which source you want your information from");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "br");
 
@@ -766,63 +766,59 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "p");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "The ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "b");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Filtering Percentage");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Filtering Percentage");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, ": you can define the filtering percentage for coronavirus.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, ": You can define the filtering percentage for coronavirus.");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "br");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "br");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, " * ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, " * ");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "b");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "b");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "0%");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, " corresponds to no filtering, as if you were opening the news as usual.");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](42, "br");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, " * ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "b");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "100%");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "0%");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, " is completely blocking all possible news related to Covid, which lets you scroll through your news feed freely.");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " corresponds to no filtering, as if you were opening the news as usual.");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "br");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " * ");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "100%");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "p");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "The ");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "b");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Category");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, " is completely blocking all possible news related to Covid, which lets you scroll through your news feed freely.");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, ": From the list of categories displayed, you can choose the one you want to explore!");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Category");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, ": From the list of categories displayed, you can choose the one you want to explore!");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "mat-dialog-actions", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "mat-dialog-actions", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "button", 3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "button", 3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Cancel");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Cancel");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -1923,325 +1919,31 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-option", 33);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Argentina");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Canada");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "mat-option", 34);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Austria");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "France");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "mat-option", 35);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Australia");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Italy");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "mat-option", 36);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Belgium");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "United Kingdom");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "mat-option", 37);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Bulgaria");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "mat-option", 38);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Brazil");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "mat-option", 39);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Canada");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "mat-option", 40);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "China");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "mat-option", 41);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Colombia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "mat-option", 42);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Cuba");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "mat-option", 43);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Czechia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "mat-option", 44);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Egypt");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "mat-option", 45);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "France");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "mat-option", 46);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Germany");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "mat-option", 47);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Greece");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "mat-option", 48);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Hong Kong");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "mat-option", 49);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Hungary");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "mat-option", 50);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Indonesia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "mat-option", 51);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Ireland");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "mat-option", 52);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Israel");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "mat-option", 53);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "India");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "mat-option", 54);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Italy");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "mat-option", 55);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Japan");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "mat-option", 56);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Lithuania");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "mat-option", 57);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Latvia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "mat-option", 58);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Morocco");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "mat-option", 59);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Mexico");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "mat-option", 60);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Malaysia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "mat-option", 61);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Nigeria");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "mat-option", 62);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Netherlands");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "mat-option", 63);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Norway");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "mat-option", 64);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, "New Zealand");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "mat-option", 65);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Philippines");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "mat-option", 66);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Poland");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "mat-option", 67);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Portugal");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "mat-option", 68);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Romania");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "mat-option", 69);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Republic of Korea");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "mat-option", 70);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Russia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "mat-option", 71);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Saudi Arabia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "mat-option", 72);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](85, "Serbia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](86, "mat-option", 73);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](87, "Sweden");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "mat-option", 74);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Singapore");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "mat-option", 75);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](91, "Slovenia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "mat-option", 76);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](93, "Slovakia");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "mat-option", 77);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](95, "Switzerland");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "mat-option", 78);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Thailand");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "mat-option", 79);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Turkey");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](100, "mat-option", 80);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](101, "Tawian");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "mat-option", 81);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Ukraine");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "mat-option", 82);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "United Arab Emirates");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "mat-option", 83);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "United Kingdom");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "mat-option", 84);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "United States of America");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "mat-option", 85);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Venezuela");
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "mat-option", 86);
-
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](113, "South Africa");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "United States of America");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2316,7 +2018,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       selectors: [["app-side-content"]],
       decls: 23,
       vars: 8,
-      consts: [[1, "text-side"], ["horizontal", "", "name", "Categorie", "aria-label", "Font Style", "value", "nyt", 1, "grid", 3, "change"], ["value", "nyt"], ["value", "google"], [1, "side-div"], ["color", "primary", "value", "100", "thumbLabel", "", 3, "change"], ["class", "side-div", 4, "ngIf"], ["class", "text-side", 4, "ngIf"], ["class", "selector", "value", "", "appearance", "fill", 4, "ngIf"], ["class", "grid", "vertical", "", "name", "Categorie", "aria-label", "Font Style", "value", "", 3, "change", 4, "ngIf"], ["class", "selector", "appearance", "fill", 4, "ngIf"], ["value", "", "appearance", "fill", 1, "selector"], ["multiple", "", 3, "selectionChange"], ["value", "", "disabled", ""], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"], ["vertical", "", "name", "Categorie", "aria-label", "Font Style", "value", "", 1, "grid", 3, "change"], ["value", ""], ["value", "business"], ["value", "entertainment"], ["value", "general"], ["value", "health"], ["value", "science"], ["value", "sports"], ["value", "technology"], ["value", "fashion"], ["value", "food"], ["value", "movies"], ["value", "politics"], ["value", "theater"], ["value", "world"], ["appearance", "fill", 1, "selector"], ["value", "", 3, "selectionChange"], ["value", "ar"], ["value", "at"], ["value", "au"], ["value", "be"], ["value", "bg"], ["value", "br"], ["value", "ca"], ["value", "cn"], ["value", "co"], ["value", "cu"], ["value", "cz"], ["value", "eg"], ["value", "fr"], ["value", "de"], ["value", "gr"], ["value", "hk"], ["value", "hu"], ["value", "id"], ["value", "ie"], ["value", "il"], ["value", "in"], ["value", "it"], ["value", "jp"], ["value", "lt"], ["value", "lv"], ["value", "ma"], ["value", "mx"], ["value", "my"], ["value", "ng"], ["value", "nl"], ["value", "no"], ["value", "nz"], ["value", "ph"], ["value", "pl"], ["value", "pt"], ["value", "ro"], ["value", "kr"], ["value", "ru"], ["value", "sa"], ["value", "rs"], ["value", "se"], ["value", "sg"], ["value", "si"], ["value", "sk"], ["value", "ch"], ["value", "th"], ["value", "tr"], ["value", "tw"], ["value", "ua"], ["value", "ae"], ["value", "gb"], ["value", "us"], ["value", "ve"], ["value", "za"]],
+      consts: [[1, "text-side"], ["horizontal", "", "name", "Categorie", "aria-label", "Font Style", "value", "nyt", 1, "grid", 3, "change"], ["value", "nyt"], ["value", "google"], [1, "side-div"], ["color", "primary", "value", "100", "thumbLabel", "", 3, "change"], ["class", "side-div", 4, "ngIf"], ["class", "text-side", 4, "ngIf"], ["class", "selector", "value", "", "appearance", "fill", 4, "ngIf"], ["class", "grid", "vertical", "", "name", "Categorie", "aria-label", "Font Style", "value", "", 3, "change", 4, "ngIf"], ["class", "selector", "appearance", "fill", 4, "ngIf"], ["value", "", "appearance", "fill", 1, "selector"], ["multiple", "", 3, "selectionChange"], ["value", "", "disabled", ""], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"], ["vertical", "", "name", "Categorie", "aria-label", "Font Style", "value", "", 1, "grid", 3, "change"], ["value", ""], ["value", "business"], ["value", "entertainment"], ["value", "general"], ["value", "health"], ["value", "science"], ["value", "sports"], ["value", "technology"], ["value", "fashion"], ["value", "food"], ["value", "movies"], ["value", "politics"], ["value", "theater"], ["value", "world"], ["appearance", "fill", 1, "selector"], ["value", "", 3, "selectionChange"], ["value", "ca"], ["value", "fr"], ["value", "it"], ["value", "gb"], ["value", "us"]],
       template: function SideContentComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
@@ -2387,7 +2089,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, SideContentComponent_h2_21_Template, 2, 0, "h2", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, SideContentComponent_mat_form_field_22_Template, 114, 0, "mat-form-field", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, SideContentComponent_mat_form_field_22_Template, 16, 0, "mat-form-field", 10);
         }
 
         if (rf & 2) {
