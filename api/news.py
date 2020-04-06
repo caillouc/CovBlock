@@ -96,7 +96,6 @@ def cleanData(wordsToRemove, data, blockingPourcentage, exception, unwantedSourc
     removeEmptyEntries(data)
 
     data.update(sources=saveSource(data))
-    data.update(painting=getPaintingURL())
 
 
 def getPaintingURL():
@@ -197,6 +196,11 @@ def makeRequest():
         return jsonify(sendRequests(blockingPourcentage, category, country, exception))
     else:
         return ERR_DIC
+
+@app.route('/art', methods=['GET'])
+def artRequest():
+    return getPaintingURL()
+
 
 
 ## MAIN ##

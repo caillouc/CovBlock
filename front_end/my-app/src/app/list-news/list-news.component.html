@@ -1,11 +1,11 @@
-<mat-card style="width:22.5%; float: right; position: fixed; right: 3%; top: 9.5%;" class="mat-elevation-z23" *ngIf="data">
+<mat-card style="width:22.5%; float: right; position: fixed; right: 3%; top: 9.5%;" class="mat-elevation-z23" *ngIf="art">
     <mat-card-title>
-        {{data.painting.name}}
+        {{art.name}}
     </mat-card-title>
     <mat-card-subtitle>
-        {{data.painting.artist}}
+        {{art.artist}}
     </mat-card-subtitle>
-    <img mat-card-image src={{data.painting.url}}>
+    <img mat-card-image src={{art.url}}>
     <!-- <mat-card-actions layout="row" layout-align="right">
         <span class="example-fill-remaining-space" flex></span>
         <span class="topnav-right">

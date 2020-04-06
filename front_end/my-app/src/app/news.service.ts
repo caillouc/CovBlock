@@ -74,6 +74,10 @@ export class NewsService {
     ) 
   }
 
+  fetch_art(){
+    return this.http.get<any>("http://localhost:1415/art");
+  }
+
   get_data(){
     return this.data;
   }
