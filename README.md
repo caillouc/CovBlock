@@ -1,8 +1,6 @@
 # CovHack 
 
-<p align="center">
-<a href="https://youtu.be/LF0eBXKF2Xg"></a>
-</p>
+https://youtu.be/LF0eBXKF2Xg
 
 ## The idea : 
 
