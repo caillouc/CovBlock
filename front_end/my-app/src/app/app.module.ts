@@ -18,18 +18,22 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'; 
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatTooltipModule } from '@angular/material/tooltip'; 
+import { MatDialogModule } from '@angular/material/dialog'; 
 
 //Nos composants
 import { SideContentComponent } from './side-content/side-content.component';
 import { ListNewsComponent } from './list-news/list-news.component';
 import { ArticleBoxComponent } from './list-news/article-box/article-box.component';
+import { DialogBodyComponent } from './dialog-body/dialog-body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideContentComponent,
     ListNewsComponent,
-    ArticleBoxComponent
+    ArticleBoxComponent,
+    DialogBodyComponent
   ],
   imports: [
     BrowserModule,
@@ -48,7 +52,9 @@ import { ArticleBoxComponent } from './list-news/article-box/article-box.compone
     MatButtonToggleModule,
     MatGridListModule,
     MatProgressSpinnerModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTooltipModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

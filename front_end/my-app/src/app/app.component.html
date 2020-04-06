@@ -6,11 +6,42 @@
   <title>Document</title>
 </head>
 <body>
+  
+
+  
+  <!-- <button mat-raised-button
+          matTooltip="Multiline Tooltip &#13; This is second line"
+          matTooltipClass="multiline-tooltip">
+  Multiline tooltip
+  </button>
+
+  <mat-icon matTooltip="Multiline&#13;&#13; Tooltip &#13; This is second &#13;line" matTooltipClass="multiline-tooltip" matTooltipPosition="below" [matTooltipHideDelay]="2000">
+    house
+  </mat-icon> -->
+
+  
   <div class="example-container">
-  <mat-toolbar color="primary" class="example-toolbar">
-    <button mat-icon-button color="white" (click)="side.toggle()"><mat-icon>menu</mat-icon></button>
-    <h1 class="example-app-name">CovBlock</h1>
-  </mat-toolbar>
+    <mat-toolbar color="primary" class="example-toolbar">
+      <button mat-icon-button color="white" (click)="side.toggle()"><mat-icon>menu</mat-icon></button>
+      <h1 class="example-app-name">CovBlock</h1>
+      <span class="fill-space"></span>
+      <button mat-button (click)="openGithub()">
+        <mat-icon [ngStyle]="{'color':'white', 'margin-left':'2px'}" svgIcon="github"></mat-icon>
+        <!-- class="white-icon"  -->
+        <span style="margin-left: 5px;margin-right: 5px; color:white">GitHub</span>
+      </button>
+      
+      <button mat-button (click)="openDialog()">
+        <mat-icon [ngStyle]="{'color':'white', 'margin-left':'2px'}">help</mat-icon>
+        <!-- class="white-icon"  -->
+        <span style="margin-left: 5px;margin-right: 5px; color:white">Help</span>
+      </button>
+      <!-- <button mat-raised-button (click)="notHelp()">
+        help
+      </button> -->
+      
+      
+</mat-toolbar>
     <mat-sidenav-container [hasBackdrop]="false" class="example-sidenav-container">
       
       <mat-sidenav #side opened="true" [mode]="'over'" style="width: 18%;">
@@ -18,8 +49,24 @@
             </app-side-content>    
         </mat-sidenav>
       <mat-sidenav-content>
-        <app-list-news>
-          
+
+
+        <!-- <mat-card class="pop-up" *ngIf="help">
+          <mat-card-header>
+            <mat-card-title>Help Page</mat-card-title>
+            <mat-card-subtitle>sub-title</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>this is the description of the card</p>
+            <button mat-raised-button (click)="hideHelp()">
+              close
+            </button>
+          </mat-card-content>
+        </mat-card> -->
+
+
+
+        <app-list-news>  
         </app-list-news>
       </mat-sidenav-content>
     </mat-sidenav-container>
