@@ -1050,7 +1050,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "fetch_data",
         value: function fetch_data() {
-          return this.http.get("http://140.238.171.25:1415/news?blockingPourcentage=" + this.pourcentage.toString() + ("&api=" + this.api) + (this.country === "" ? "" : "&country=" + this.country.toString()) + (this.category === "" ? "" : "&category=" + this.category.toString()) + ( //TODO change check for empty array
+          return this.http.get("http://10.0.0.4:1415/news?blockingPourcentage=" + this.pourcentage.toString() + ("&api=" + this.api) + (this.country === "" ? "" : "&country=" + this.country.toString()) + (this.category === "" ? "" : "&category=" + this.category.toString()) + ( //TODO change check for empty array
           this.exceptions.length === 0 ? "" : "&exception=" + this.exceptions.map(function (s) {
             return s + "_";
           }).toString().slice(0, -1)));
