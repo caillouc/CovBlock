@@ -1,6 +1,6 @@
 # CovHack 
 
-![](https://youtu.be/LF0eBXKF2Xg)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/LF0eBXKF2Xg/0.jpg)](http://www.youtube.com/watch?v=LF0eBXKF2Xg "CovBlock")
 
 ## The idea : 
 
