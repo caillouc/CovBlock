@@ -22,6 +22,9 @@ MAX_PAGE_SIZE = 100
 
 ERR_DIC = {"error": "an error has occured"}
 
+EMPTY_ARTICLE = {"source": {"id": "nyt", "name": "New York Times"}, "author": "", "title": "",
+                 "description": "", "url": "", "urlToImage": "", "publishedAt": "", "content": ""}
+
 GOOGLE_CATEGORY = ["business",  "entertainment",
                    "general", "health", "science", "sports", "technology"]
 NYT_CATEGORY = ["arts", "automobiles", "books", "business", "fashion", "food", "health", "home", "insider", "magazine", "movies", "nyregion", "obituaries",
@@ -144,10 +147,13 @@ def changeFormat(dic):
     newDic.update({"status": "ok", "totalResults": len(
         dic["results"]), "articles": []})
     for a in dic["results"]:
-        art = {}
-        source = {"id": "nyt", "name": "Ney York Times"}
-        art.update({"source": source, "author": a["byline"], "title": a["title"], "description": a["abstract"],
-                    "url": a["url"], "urlToImage": a["multimedia"][0]["url"], "publishedAt": a["published_date"], "content": ""})
+        try:
+            art = {}
+            source = {"id": "nyt", "name": "New York Times"}
+            art.update({"source": source, "author": a["byline"], "title": a["title"], "description": a["abstract"],
+                        "url": a["url"], "urlToImage": a["multimedia"][0]["url"], "publishedAt": a["published_date"], "content": ""})
+        except TypeError:
+            art = EMPTY_ARTICLE
         newDic["articles"].append(art)
     return newDic
 
@@ -197,12 +203,11 @@ def makeRequest():
     else:
         return ERR_DIC
 
+
 @app.route('/art', methods=['GET'])
 def artRequest():
     return getPaintingURL()
 
 
-
 ## MAIN ##
-# ip of raspberry
-app.run('localhost', port=1415)
+app.run('0.0.0.0', port=1415)
